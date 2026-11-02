@@ -3,7 +3,7 @@ import type { EquipSlot, BoonOffer } from '../engine/types.ts';
 import { EQUIP_SLOTS, HIT_LOCS } from '../engine/types.ts';
 import { h, btn, fmt } from './dom.ts';
 import { app, run, render, toast, setGame } from './app.ts';
-import { art, bgStyle } from './art.ts';
+import { art, bgStyle, vignette } from './art.ts';
 import { heroPortrait, heroLine, hpBar, boonCard, bagView, itemIcon, doubloons, charmEl, dieFace, charGrid } from './widgets.ts';
 import { CAREERS, featuresUpTo, RANK_XP } from '../content/careers.ts';
 import { itemName, ITEMS } from '../content/items.ts';
@@ -116,7 +116,7 @@ export function advanceModal(id: string): HTMLElement {
     boons ? h('div', { class: 'win', style: 'margin-top:8px' }, h('h3', null, `Rank Boon: choose a free Talent (${boons})`),
       h('div', { class: 'col' }, ...boonOptions(hero).map((o) => btn([h('b', null, o.label), h('span', { class: 'small muted' }, ` — ${o.text}`)], () => buy(o.id, true), { cls: 'small' })))) : null,
     h('div', { class: 'row', style: 'margin-top:8px' }, ...kinds.filter(([, n]) => n).map(([k, n]) => btn(n, () => { advTab = k; render(); }, { cls: `small ${advTab === k ? 'on' : ''}` })),
-      h('span', { class: 'spacer' }), btn('Spend as recommended', () => { run({ type: 'autoAdvance', heroId: hero.id }); sfx.fanfare(); }, { cls: 'small' })),
+      h('span', { class: 'spacer' }), h('span', { 'data-tut': 'adv-auto' }, btn('Spend as recommended', () => { run({ type: 'autoAdvance', heroId: hero.id }); sfx.fanfare(); }, { cls: 'small' }))),
     h('div', { class: 'list', style: 'margin-top:8px' }, ...shown.map((o) => h('div', { class: 'item-row' },
       h('div', { class: 'grow' }, h('b', null, o.label), h('div', { class: 'small muted' }, o.text)),
       h('span', { class: 'small gold' }, `${o.cost} xp`),
@@ -133,6 +133,7 @@ export function spoilsModal(): HTMLElement {
   const s = exp.spoils!;
   const boss = s.kind === 'boss';
   return modal([
+    vignette(boss ? 'moments/lordSlain' : 'moments/victory'),
     h('h2', { class: 'result-big gold' }, boss ? 'The region\'s lord is dead!' : 'Victory!'),
     h('div', { class: 'col', style: 'align-items:center;margin:10px 0' },
       h('div', { class: 'row' }, h('span', { class: 'coin' }), h('b', { class: 'gold' }, `+${s.gold} Thrones`), h('span', { class: 'small muted' }, '(carried — bank it by getting out alive)')),
@@ -154,6 +155,7 @@ export function boonsModal(): HTMLElement {
   if (app.ui.bagPick?.purpose === 'boon') return bagPickModal();
   if (replacing?.purpose === 'boon') return replaceModal();
   return modal([
+    vignette('moments/boons'),
     h('h2', null, b.picks > 1 ? `Choose ${b.picks} boons` : 'Choose a boon'),
     h('div', { class: 'row small muted' }, `Relics ${exp.fortune.charms.length}/${charmSlots(exp.fortune)}`, doubloons(exp.fortune.doubloons)),
     h('div', { class: 'boons', style: 'margin:10px 0' }, ...b.offers.map((o, i) => boonCard(o, () => pickOffer('boon', o, i)))),
@@ -208,6 +210,7 @@ function bagPickModal(): HTMLElement {
 export function lootChoiceModal(): HTMLElement {
   const exp = app.game!.expedition!;
   return modal([
+    vignette('moments/hoard'),
     h('h2', null, 'The lord\'s hoard — take one'),
     h('div', { class: 'list' }, ...exp.lootChoice!.items.map((it, i) => h('div', { class: 'item-row' }, itemIcon(it.defId),
       h('div', { class: 'grow' }, h('b', null, itemName(it)), h('div', { class: 'small muted' }, itemSummary(it.defId, it))),
@@ -221,6 +224,7 @@ export function shopModal(): HTMLElement {
   if (app.ui.bagPick?.purpose === 'shop') return bagPickModal();
   if (replacing?.purpose === 'shop') return replaceModal();
   return modal([
+    vignette('moments/scavenger'),
     h('div', { class: 'row' }, h('h2', { class: 'grow' }, 'The Scavenger'), doubloons(exp.fortune.doubloons)),
     h('p', { class: 'prose' }, '"Relics, dice, tarot — all of it lucky, most of it not stolen. Scrip only. Thrones are no good in here."'),
     h('div', { class: 'boons', style: 'margin:10px 0' }, ...shop.offers.map((o, i) => boonCard(o, () => pickOffer('shop', o, i), { price: o.price, afford: (o.price ?? 0) <= exp.fortune.doubloons, disabled: (o.price ?? 0) > exp.fortune.doubloons }))),
@@ -238,11 +242,12 @@ export function eventModal(): HTMLElement {
     return bagPickModal();
   }
   if (exp.event!.stage === 'result') {
-    return modal([h('h2', null, ev.title), h('div', { class: 'col prose' }, ...(exp.event!.result ?? []).map((l) => h('p', { style: 'margin:0' }, l))),
+    return modal([vignette(`events/${ev.id}`, ev.title), h('h2', null, ev.title), h('div', { class: 'col prose' }, ...(exp.event!.result ?? []).map((l) => h('p', { style: 'margin:0' }, l))),
       h('div', { class: 'row', style: 'margin-top:10px' }, h('span', { class: 'spacer' }), btn('Continue', () => run({ type: 'eventClose' }), { cls: 'primary', key: 'ev-continue' }))], { narrow: true, label: ev.title });
   }
   const opts = eventOptions(app.game!);
   return modal([
+    vignette(`events/${ev.id}`, ev.title),
     h('h2', null, ev.title),
     h('p', { class: 'prose' }, ev.text),
     h('div', { class: 'menu' }, ...opts.map((o, i) => {
@@ -286,6 +291,7 @@ export function resultScreen(): HTMLElement {
   return h('div', { class: 'title-screen', style: bgStyle(r.kind === 'won' ? `scenes/${r.biome}_boss` : 'town/fortress', '#0a0a10') + ';background-size:cover;background-position:center' },
     h('div', { class: 'title-inner' },
       h('div', { class: 'win', style: 'width:min(640px,100%)' },
+        vignette(resultArt(r, chapter), title),
         h('h1', { class: `result-big ${r.kind === 'wiped' ? 'danger' : 'gold'}` }, title),
         h('p', { class: 'prose', style: 'text-align:center;margin:8px auto' }, `${r.finale ? 'The Heart of the Fortress' : r.tutorial ? 'The Nursery' : BIOMES[r.biome].name} — ${r.fights} fights, best hand ${fmt(r.score)}.`),
         chapter ? h('div', { class: 'chronicle story-beat' }, h('div', { class: 'chapter-head' }, chapter.head), h('h2', null, chapter.title), ...chapter.text.map((t) => h('p', { class: 'prose' }, t))) : null,
@@ -301,6 +307,16 @@ export function resultScreen(): HTMLElement {
           btn(r.captainLost ? 'Continue' : 'Return to the enclave', () => { app.ui.townTab = r.xp ? 'guild' : 'cartographer'; run({ type: 'ackResult' }); }, { cls: 'primary big', key: 'ack' })))));
 }
 
+/** The banner for an aftermath screen: the worst news first, then the story. */
+function resultArt(r: NonNullable<ReturnType<typeof lastResultOf>>, chapter?: Chapter): string {
+  if (r.captainLost) return 'moments/captainLost';
+  if (chapter) return `story/${chapter.id}`;
+  if (r.kind === 'wiped') return 'moments/wiped';
+  if (r.kind === 'retreated') return 'moments/retreat';
+  return r.tutorial ? 'moments/blooded' : 'moments/victory';
+}
+function lastResultOf() { return app.game?.lastResult; }
+
 export function gameOverScreen(): HTMLElement {
   const g = app.game!;
   const e = g.ending ?? { captain: 'The Lord-Captain', cause: 'lost in the Fortress', day: g.profile.townDay, clears: g.profile.stats.clears };
@@ -315,6 +331,7 @@ export function gameOverScreen(): HTMLElement {
   return h('div', { class: 'title-screen gameover', style: 'background:radial-gradient(ellipse at 50% 30%, #2a0a0e, #050508 70%)' },
     h('div', { class: 'title-inner' },
       h('div', { class: 'win', style: 'width:min(640px,100%)' },
+        vignette('moments/dynastyEnded'),
         h('h1', { class: 'result-big danger' }, `House ${g.profile.dynastyName} is ended`),
         h('p', { class: 'prose', style: 'text-align:center' }, `${e.captain} ${e.cause}. With no Lord-Captain to hold the name, the retainers scatter into the enclave and the derelict trader is stripped for parts within the week.`),
         h('p', { class: 'prose', style: 'text-align:center' }, `The Dynasty lasted ${e.day} days, cleared ${e.clears} region${e.clears === 1 ? '' : 's'} of the Fortress, and traded ${fmt(g.profile.stats.thronesTraded)} Thrones. Somewhere inside, the Warrant waits for someone else.`),

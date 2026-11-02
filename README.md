@@ -63,7 +63,9 @@ Every state change is a command (`src/app/commands.ts`). The UI, keyboard, tests
 
 ## Art
 
-None is bundled yet: every portrait, foe, relic and scene falls back to a drawn placeholder. `npm run art-spec` writes `art/spec.json` (301 entries, each with a style group and subject) for an image pipeline. Drop `.webp` files in `public/art/` and list their keys in `public/art/manifest.json`.
+`npm run art-spec` writes `art/spec.json` (403 entries, each with a style group and subject) for the image pipeline (`~/Programming/image_gen_pipeline`, `generate_warp_art.py`), which installs `.webp` files into `public/art/` and lists their keys in `public/art/manifest.json`. Anything missing falls back to a drawn placeholder.
+
+Besides portraits, foes, relics, items and scenes, every Fortress event, key popup (victory, the scavenger, the hoard, defeat, the end of a Dynasty) and story chapter has a **vignette**: a wide illustrated banner across the top of its window. An event's art subject is its `look` field in `src/content/events.ts` / `src/content/moreEvents.ts`.
 
 ## Controls
 

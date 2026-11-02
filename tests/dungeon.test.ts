@@ -4,6 +4,7 @@ import { Rng, seedState } from '../src/engine/rng.ts';
 import type { ZoneId } from '../src/engine/types.ts';
 import { MONSTERS } from '../src/content/monsters.ts';
 import { EVENTS } from '../src/content/events.ts';
+import { SKILLS } from '../src/content/skills.ts';
 import { rollItem, bossLootChoice, rollMarket } from '../src/meta/loot.ts';
 import { ITEMS, MODS } from '../src/content/items.ts';
 
@@ -51,5 +52,31 @@ describe('item generator', () => {
     const market = rollMarket(rng, { armory: 1, apothecary: 1 }, 12);
     expect(market.length).toBeGreaterThan(10);
     expect(market.every((x) => !ITEMS[x.defId].lootOnly)).toBe(true);
+  });
+});
+
+describe('Fortress events', () => {
+  const list = Object.values(EVENTS);
+  it('every event has a no-check option, art, and only real Skills', () => {
+    for (const e of list) {
+      expect(e.options.some((o) => !o.check && !o.cost), `${e.id} needs a free, no-check option`).toBe(true);
+      expect(e.look.length, `${e.id} needs an art subject`).toBeGreaterThan(20);
+      for (const o of e.options) if (o.check?.skill) expect(SKILLS[o.check.skill], `${e.id}: ${o.check.skill}`).toBeTruthy();
+    }
+  });
+  it('every region has at least ten events of its own, and every Skill has a use', () => {
+    for (const z of ZONES) expect(list.filter((e) => e.biome === z && e.kind === 'event').length, z).toBeGreaterThanOrEqual(10);
+    const used = new Set(list.flatMap((e) => e.options.map((o) => o.check?.skill).filter(Boolean)));
+    const combatOnly = new Set(['dodge', 'invocation']);
+    for (const s of Object.keys(SKILLS)) if (!combatOnly.has(s) || used.has(s as never)) expect(used.has(s as never), s).toBe(true);
+  });
+  it('generated Fortresses actually place the new regional events', () => {
+    const seen = new Set<string>();
+    for (let i = 0; i < 400; i++) {
+      const biome = ZONES[i % 5];
+      const map = generateDungeon(new Rng(seedState(`EV-${i}`)), { seed: `EV-${i}`, biome, level: 1 + (i % 20), difficulty: 'standard' });
+      for (const r of Object.values(map.rooms)) if (r.eventId) seen.add(r.eventId);
+    }
+    for (const e of list.filter((x) => x.biome !== 'any' && x.kind === 'event')) expect(seen.has(e.id), e.id).toBe(true);
   });
 });

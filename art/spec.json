@@ -1,6 +1,6 @@
 {
  "game": "warp_dice",
- "count": 301,
+ "count": 403,
  "entries": [
   {
    "key": "heroes/rogueTrader_1",
@@ -2408,6 +2408,822 @@
    "group": "scene:town",
    "name": "codex",
    "subject": "a cogitator archive of records and bestiary data-slates. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "events/lockedCache",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "A Sealed Cache",
+   "subject": "a heavy Mechanicus strongbox bolted to a black-stone deck, a single amber cogitator-lock light blinking, deep pry-scratches around its seal, a dead scavenger's crowbar on the floor. Camera: a low angle looking up at the subject, which towers over the viewer.",
+   "anchor": true
+  },
+  {
+   "key": "events/woundedRival",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "A Wounded Rival",
+   "subject": "a wounded noblewoman in the torn livery of a rival Dynasty slumped against a bulkhead, bleeding, one hand outstretched, an empty dice-pouch at her belt, lit by a dying lumen. Camera: a close, intimate shot; the subject fills the frame in rich texture and detail.",
+   "anchor": false
+  },
+  {
+   "key": "events/dicingGhost",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "The Gambler's Ghost",
+   "subject": "a translucent ghostly voidsman seated at a table of bone, rattling a cup of bone dice, spectral blue glow, empty chairs waiting, cobwebbed chandelier overhead. Camera: a high angle looking down into the space, the subject small within a vast setting.",
+   "anchor": false
+  },
+  {
+   "key": "events/emperorsTarot",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "The Emperor's Tarot",
+   "subject": "a great brass wheel the height of three men set with blank tarot plates painted with a throne, a skull, a double-headed eagle and an eye, a coin-slot at its base, votive candles. Camera: a side-on view along strong diagonal lines, the subject off-centre to one side.",
+   "anchor": false
+  },
+  {
+   "key": "events/blackAltar",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "The Black Altar",
+   "subject": "a plinth of black stone carved with a hand releasing a single die, a bowl beneath it worn smooth by countless offerings, scattered bone dice, oppressive darkness. Camera: a wide, symmetrical, cathedral-like composition, the subject framed by architecture.",
+   "anchor": false
+  },
+  {
+   "key": "events/collapsedPassage",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "Collapsed Passage",
+   "subject": "a corridor choked by collapsed black-stone rubble and bent girders, a faint golden glint visible through a gap in the debris, dust hanging in a torch beam. Camera: a dramatic close-up on the key object or face, the background melting into shadow.",
+   "anchor": false
+  },
+  {
+   "key": "events/medicaeStation",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "An Abandoned Medicae Station",
+   "subject": "an abandoned chirurgeon's station still humming, surgical servo-arms frozen mid-motion, vials of glowing blue fluid in a cooling rack, a bloodstained operating slab. Camera: a tilted, dynamic angle, as if frozen mid-action.",
+   "anchor": false
+  },
+  {
+   "key": "events/servitorTraps",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "Defence Turrets",
+   "subject": "ceiling-mounted las-turrets with red targeting optics tracking the viewer, a scorched floor in a neat geometric pattern, smoke and sparks, a fallen explorer's boot. Camera: a three-quarter view from slightly above, the subject lit by its own light source.",
+   "anchor": false
+  },
+  {
+   "key": "events/rivalCrew",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "A Rival Crew",
+   "subject": "a rival crew in another noble house's colours blocking a narrow gantry over an abyss, weapons drawn, their captain raising a gauntleted hand to halt a small band of helmeted explorers facing them. Camera: a low angle looking up at the subject, which towers over the viewer.",
+   "anchor": false
+  },
+  {
+   "key": "events/shrineOfDrusus",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "Shrine of Saint Drusus",
+   "subject": "a makeshift shrine in a fortress alcove: candle stubs, a cracked double-headed eagle, a saint scratched crudely onto a hull plate, prayer ribbons, warm devotional light. Camera: a close, intimate shot; the subject fills the frame in rich texture and detail.",
+   "anchor": false
+  },
+  {
+   "key": "events/xenosIdol",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "The Grinning Idol",
+   "subject": "a grinning xenos idol of unknowable material on a pedestal in a suspiciously spotless chamber, its smile too wide, a faint unnatural glow, the floor polished like a mirror. Camera: a high angle looking down into the space, the subject small within a vast setting.",
+   "anchor": false
+  },
+  {
+   "key": "events/stryxisTrader",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "A Stryxis Trader",
+   "subject": "a hunched xenos merchant in a cloak of a hundred pockets, long spindly fingers, glowing insectile eyes, trinkets and stolen relics hanging from its cloak, crouched over a mat of wares. Camera: a side-on view along strong diagonal lines, the subject off-centre to one side.",
+   "anchor": false
+  },
+  {
+   "key": "events/sigilKey",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "The Warp-Key",
+   "subject": "a key of black stone floating above a plinth, humming with power, flickering rings of violet warp-wards around it, light bending around the key. Camera: a wide, symmetrical, cathedral-like composition, the subject framed by architecture.",
+   "anchor": false
+  },
+  {
+   "key": "events/meterReset",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "Controls",
+   "subject": "a single great lever of brass and bone set in a black-stone wall, its handle worn smooth by countless hands, ancient gears visible behind cracked panels. Camera: a dramatic close-up on the key object or face, the background melting into shadow.",
+   "anchor": false
+  },
+  {
+   "key": "events/derelictCockpit",
+   "kind": "vignette",
+   "group": "vignette:docks",
+   "name": "Derelict Cockpit",
+   "subject": "the cockpit of a crashed lander fused into the deck, a skeletal pilot still strapped into the seat, a vox-unit crackling with green light, frost on the canopy. Camera: a low angle looking up at the subject, which towers over the viewer.",
+   "anchor": true
+  },
+  {
+   "key": "events/sealedBrig",
+   "kind": "vignette",
+   "group": "vignette:docks",
+   "name": "The Sealed Brig",
+   "subject": "a sealed brig cell door on a wrecked ship, dented from the inside, a grimy green-skinned hand reaching through the bars, flickering hazard lights. Camera: a close, intimate shot; the subject fills the frame in rich texture and detail.",
+   "anchor": false
+  },
+  {
+   "key": "events/singingFlowers",
+   "kind": "vignette",
+   "group": "vignette:gardens",
+   "name": "Singing Flowers",
+   "subject": "a meadow of pale luminous alien flowers growing through black stone, their petals open like mouths, drifting spores, beautiful and deeply wrong. Camera: a low angle looking up at the subject, which towers over the viewer.",
+   "anchor": true
+  },
+  {
+   "key": "events/petrifiedExplorer",
+   "kind": "vignette",
+   "group": "vignette:gardens",
+   "name": "A Petrified Explorer",
+   "subject": "an explorer in old-pattern carapace armour turned entirely to wood, roots growing from their boots, their pack still on their back, alien vines curling around them. Camera: a close, intimate shot; the subject fills the frame in rich texture and detail.",
+   "anchor": false
+  },
+  {
+   "key": "events/stasisCoffin",
+   "kind": "vignette",
+   "group": "vignette:reliquary",
+   "name": "A Stasis Coffin",
+   "subject": "a stasis coffin in a flooded vault, three rings of abstract glyphs turning around it, a shadowy figure perfectly preserved inside the frosted glass, black coolant water. Camera: a low angle looking up at the subject, which towers over the viewer.",
+   "anchor": true
+  },
+  {
+   "key": "events/cogitatorShrine",
+   "kind": "vignette",
+   "group": "vignette:reliquary",
+   "name": "Cogitator Shrine",
+   "subject": "a towering cogitator bank like a pipe organ, green screens glowing, one screen showing a map, incense and cabling, a servo-skull hovering. Camera: a close, intimate shot; the subject fills the frame in rich texture and detail.",
+   "anchor": false
+  },
+  {
+   "key": "events/talkingReflection",
+   "kind": "vignette",
+   "group": "vignette:labyrinth",
+   "name": "The Talking Reflection",
+   "subject": "a tall black-glass mirror in which a hooded explorer's reflection has turned to face the viewer on its own, smiling, while the real figure stands still. Camera: a low angle looking up at the subject, which towers over the viewer.",
+   "anchor": true
+  },
+  {
+   "key": "events/confessional",
+   "kind": "vignette",
+   "group": "vignette:labyrinth",
+   "name": "The Confessional",
+   "subject": "a confessional booth carved from black glass, a grille of prismatic light, an unseen presence whispering from within, shards floating in the air. Camera: a close, intimate shot; the subject fills the frame in rich texture and detail.",
+   "anchor": false
+  },
+  {
+   "key": "events/weighingEngine",
+   "kind": "vignette",
+   "group": "vignette:core",
+   "name": "The Weighing Engine",
+   "subject": "enormous golden scales floating in a gravity well, one pan holding a single feather, the other empty and waiting, debris orbiting slowly around them. Camera: a low angle looking up at the subject, which towers over the viewer.",
+   "anchor": true
+  },
+  {
+   "key": "events/daemonBargain",
+   "kind": "vignette",
+   "group": "vignette:core",
+   "name": "The Daemon's Bargain",
+   "subject": "a jagged seam of magenta warp-light torn in a black-stone wall, a shadowy daemonic face with too many eyes leaning out of it, offering a clawed hand. Camera: a close, intimate shot; the subject fills the frame in rich texture and detail.",
+   "anchor": false
+  },
+  {
+   "key": "events/driftingCargo",
+   "kind": "vignette",
+   "group": "vignette:docks",
+   "name": "Cargo Adrift",
+   "subject": "a breached cargo hold in zero gravity, huge battered cargo containers tumbling slowly through the dark, frost and drifting debris, a lone explorer silhouette leaping between them. Camera: a high angle looking down into the space, the subject small within a vast setting.",
+   "anchor": false
+  },
+  {
+   "key": "events/orkLootPile",
+   "kind": "vignette",
+   "group": "vignette:docks",
+   "name": "Da Big Pile",
+   "subject": "a towering heap of stolen salvage, guns, helmets and engine parts crowned by a crude scrap banner, hulking green-skinned brutes asleep around its base, firelight. Camera: a side-on view along strong diagonal lines, the subject off-centre to one side.",
+   "anchor": false
+  },
+  {
+   "key": "events/airlockCycle",
+   "kind": "vignette",
+   "group": "vignette:docks",
+   "name": "The Stuck Airlock",
+   "subject": "a massive circular airlock door half open to the starry void, hazard lights strobing red, frost spreading across the corridor floor, air rushing out in a white plume. Camera: a wide, symmetrical, cathedral-like composition, the subject framed by architecture.",
+   "anchor": false
+  },
+  {
+   "key": "events/scavengerToll",
+   "kind": "vignette",
+   "group": "vignette:docks",
+   "name": "Scavenger Toll",
+   "subject": "a gang of ragged scavengers in patched void-suits blocking a docking spine with a heavy chain, their leader grinning through a cracked visor, wrecked ships beyond. Camera: a dramatic close-up on the key object or face, the background melting into shadow.",
+   "anchor": false
+  },
+  {
+   "key": "events/deadBeacon",
+   "kind": "vignette",
+   "group": "vignette:docks",
+   "name": "A Dead Nav-Beacon",
+   "subject": "a towering dormant navigation beacon like a brass reliquary shrine, nested rings of star charts and astrolabe arms, cold blue starlight through a hull breach. Camera: a tilted, dynamic angle, as if frozen mid-action.",
+   "anchor": false
+  },
+  {
+   "key": "events/frozenWatch",
+   "kind": "vignette",
+   "group": "vignette:docks",
+   "name": "The Frozen Watch",
+   "subject": "the bridge of a wrecked ship where a whole crew sits frozen at their stations, frost covering their faces and uniforms, cold blue light through a shattered viewport. Camera: a three-quarter view from slightly above, the subject lit by its own light source.",
+   "anchor": false
+  },
+  {
+   "key": "events/reaverSign",
+   "kind": "vignette",
+   "group": "vignette:docks",
+   "name": "Reaver Sign",
+   "subject": "a dark corridor bulkhead covered in bloody handprints, a skull nailed above a hatch, tripwires glinting in a torch beam, renegade gang markings without lettering. Camera: a low angle looking up at the subject, which towers over the viewer.",
+   "anchor": false
+  },
+  {
+   "key": "events/lastShift",
+   "kind": "vignette",
+   "group": "vignette:docks",
+   "name": "The Last Shift",
+   "subject": "a hulking rogue servitor foreman with a glowing red optic and loud-hailer jaw, barking orders at a row of slumped corpse workers in a cargo bay, sparks and steam. Camera: a close, intimate shot; the subject fills the frame in rich texture and detail.",
+   "anchor": false
+  },
+  {
+   "key": "events/tetheredPod",
+   "kind": "vignette",
+   "group": "vignette:docks",
+   "name": "A Tethered Lifepod",
+   "subject": "a small lifepod dangling on a single cable across a gulf of open void between two wrecked hulls, its distress light blinking red, stars far below. Camera: a high angle looking down into the space, the subject small within a vast setting.",
+   "anchor": false
+  },
+  {
+   "key": "events/smugglersDeck",
+   "kind": "vignette",
+   "group": "vignette:docks",
+   "name": "A Smuggler's Deck",
+   "subject": "a ship corridor with a lifted false deck plate revealing a hidden smuggler's compartment of contraband, scratched tally marks on a stanchion, lamp light from below. Camera: a side-on view along strong diagonal lines, the subject off-centre to one side.",
+   "anchor": false
+  },
+  {
+   "key": "events/krootSpoor",
+   "kind": "vignette",
+   "group": "vignette:gardens",
+   "name": "Kroot Spoor",
+   "subject": "a mossy alien jungle path through black stone, clawed footprints, scattered feathers and gnawed bones, a feathered hunter's silhouette watching from the canopy above. Camera: a high angle looking down into the space, the subject small within a vast setting.",
+   "anchor": false
+  },
+  {
+   "key": "events/sporeBloom",
+   "kind": "vignette",
+   "group": "vignette:gardens",
+   "name": "Spore Bloom",
+   "subject": "giant alien seed pods splitting open in a dark jungle, clouds of glittering golden spores drifting across a path, eerie teal bioluminescence. Camera: a side-on view along strong diagonal lines, the subject off-centre to one side.",
+   "anchor": false
+  },
+  {
+   "key": "events/venomwingNest",
+   "kind": "vignette",
+   "group": "vignette:gardens",
+   "name": "Venomwing Nest",
+   "subject": "a nest of woven bone hanging from a jungle-choked ceiling, filled with glowing iridescent eggs, a shadow of a great winged predator on the far wall. Camera: a wide, symmetrical, cathedral-like composition, the subject framed by architecture.",
+   "anchor": false
+  },
+  {
+   "key": "events/caughtInVines",
+   "kind": "vignette",
+   "group": "vignette:gardens",
+   "name": "Caught in the Vines",
+   "subject": "a man cocooned in creeping alien vines high on a black-stone wall, only his pale terrified face showing, a huge flower bud opening beside him, eerie glow. Camera: a dramatic close-up on the key object or face, the background melting into shadow.",
+   "anchor": false
+  },
+  {
+   "key": "events/krootElder",
+   "kind": "vignette",
+   "group": "vignette:gardens",
+   "name": "A Kroot Elder",
+   "subject": "an old feathered xenos hunter with a long rifle across its knees, squatting beside a small fire of bones in an alien jungle clearing, beak and quills lit by firelight. Camera: a tilted, dynamic angle, as if frozen mid-action.",
+   "anchor": false
+  },
+  {
+   "key": "events/fruitingBody",
+   "kind": "vignette",
+   "group": "vignette:gardens",
+   "name": "The Fruiting Body",
+   "subject": "heavy glowing alien fruit hanging from a thick pulsing vine like a vein, dripping golden juice, dark jungle of black stone and teal light. Camera: a three-quarter view from slightly above, the subject lit by its own light source.",
+   "anchor": false
+  },
+  {
+   "key": "events/rootMaze",
+   "kind": "vignette",
+   "group": "vignette:gardens",
+   "name": "The Root Maze",
+   "subject": "colossal alien roots thick as starship bulkheads choking a black-stone corridor into a twisting maze, faint bioluminescent glow, drifting spores. Camera: a low angle looking up at the subject, which towers over the viewer.",
+   "anchor": false
+  },
+  {
+   "key": "events/thrallShrine",
+   "kind": "vignette",
+   "group": "vignette:gardens",
+   "name": "A Spore-Thrall Shrine",
+   "subject": "pale fungus-infested thralls kneeling before a huge pulsing alien pod on an altar of roots, heaps of rings, weapons and teeth as offerings, sickly green light. Camera: a close, intimate shot; the subject fills the frame in rich texture and detail.",
+   "anchor": false
+  },
+  {
+   "key": "events/gnashingArch",
+   "kind": "vignette",
+   "group": "vignette:gardens",
+   "name": "The Gnashing Arch",
+   "subject": "a giant carnivorous flower grown into a doorway arch, petals rimmed with long teeth opening and closing, a glint of treasure beyond, eerie teal glow. Camera: a high angle looking down into the space, the subject small within a vast setting.",
+   "anchor": false
+  },
+  {
+   "key": "events/surveyCamp",
+   "kind": "vignette",
+   "group": "vignette:gardens",
+   "name": "A Survey Camp",
+   "subject": "an abandoned explorers' survey camp in an alien jungle, moss-covered tents, a muttering cogitator with a green screen, scattered instruments and a lantern. Camera: a side-on view along strong diagonal lines, the subject off-centre to one side.",
+   "anchor": false
+  },
+  {
+   "key": "events/drownedShelves",
+   "kind": "vignette",
+   "group": "vignette:reliquary",
+   "name": "The Drowned Shelves",
+   "subject": "tall relic shelves descending into still black coolant, a gleaming artefact visible beneath the surface, brass ladders and stasis-lamps reflected in the water. Camera: a high angle looking down into the space, the subject small within a vast setting.",
+   "anchor": false
+  },
+  {
+   "key": "events/heretekBench",
+   "kind": "vignette",
+   "group": "vignette:reliquary",
+   "name": "A Heretek's Bench",
+   "subject": "a heretek's workbench cluttered with forbidden machines, half-assembled servitor limbs, humming coils and a locked case with broken wax seals, sickly green light. Camera: a side-on view along strong diagonal lines, the subject off-centre to one side.",
+   "anchor": false
+  },
+  {
+   "key": "events/frostWhispers",
+   "kind": "vignette",
+   "group": "vignette:reliquary",
+   "name": "Whispers in the Frost",
+   "subject": "a pale translucent cryo-wraith hovering in a frozen vault, frost spreading across the walls in curling abstract patterns, cold blue light. Camera: a wide, symmetrical, cathedral-like composition, the subject framed by architecture.",
+   "anchor": false
+  },
+  {
+   "key": "events/pumpVault",
+   "kind": "vignette",
+   "group": "vignette:reliquary",
+   "name": "The Pump Vault",
+   "subject": "a cathedral-like pump hall of enormous brass pipes rising into darkness, a rusted gantry and a great master valve wheel high above black coolant. Camera: a dramatic close-up on the key object or face, the background melting into shadow.",
+   "anchor": false
+  },
+  {
+   "key": "events/rakgolTrophies",
+   "kind": "vignette",
+   "group": "vignette:reliquary",
+   "name": "Rak'Gol Trophies",
+   "subject": "a grotesque trophy rack of skulls fused to machine parts and bony fingers wearing rings, cyborg raiders working in the red-lit background. Camera: a tilted, dynamic angle, as if frozen mid-action.",
+   "anchor": false
+  },
+  {
+   "key": "events/drownedServitor",
+   "kind": "vignette",
+   "group": "vignette:reliquary",
+   "name": "A Drowned Servitor",
+   "subject": "a corroded servitor walking along the bottom of a flooded coolant channel carrying an ornate reliquary casket, seen through dark water, eerie reflected light. Camera: a three-quarter view from slightly above, the subject lit by its own light source.",
+   "anchor": false
+  },
+  {
+   "key": "events/catalogueTerminal",
+   "kind": "vignette",
+   "group": "vignette:reliquary",
+   "name": "The Catalogue Terminal",
+   "subject": "a grand cogitator terminal of brass and glass with flickering green screens and a hanging vox-grille, cables descending into black coolant, a servo-skull nearby. Camera: a low angle looking up at the subject, which towers over the viewer.",
+   "anchor": false
+  },
+  {
+   "key": "events/frozenSpan",
+   "kind": "vignette",
+   "group": "vignette:reliquary",
+   "name": "The Frozen Span",
+   "subject": "a narrow bridge of frozen black coolant spanning a dark chasm, a frosted cache on the far side, icicles and cold blue mist. Camera: a close, intimate shot; the subject fills the frame in rich texture and detail.",
+   "anchor": false
+  },
+  {
+   "key": "events/stasisArmoury",
+   "kind": "vignette",
+   "group": "vignette:reliquary",
+   "name": "The Stasis Armoury",
+   "subject": "ancient weapons suspended in glowing stasis fields like insects in amber, rows of humming brass field generators, frost and cold reflected light. Camera: a high angle looking down into the space, the subject small within a vast setting.",
+   "anchor": false
+  },
+  {
+   "key": "events/sunkenChapel",
+   "kind": "vignette",
+   "group": "vignette:reliquary",
+   "name": "The Sunken Chapel",
+   "subject": "a gothic chapel half drowned in black coolant, pews breaking the surface like gravestones, a great bronze bell above the altar, candles still burning on a ledge. Camera: a side-on view along strong diagonal lines, the subject off-centre to one side.",
+   "anchor": false
+  },
+  {
+   "key": "events/wallsMove",
+   "kind": "vignette",
+   "group": "vignette:labyrinth",
+   "name": "The Walls Move",
+   "subject": "a black-glass corridor where obsidian walls slide and rearrange themselves, prismatic light leaking through the seams, explorers' silhouettes small among them. Camera: a high angle looking down into the space, the subject small within a vast setting.",
+   "anchor": false
+  },
+  {
+   "key": "events/corsairChallenge",
+   "kind": "vignette",
+   "group": "vignette:labyrinth",
+   "name": "A Corsair's Challenge",
+   "subject": "an elegant alien corsair in sleek dark armour lounging on a floating shard of black glass, twirling a curved blade, prismatic light. Camera: a side-on view along strong diagonal lines, the subject off-centre to one side.",
+   "anchor": false
+  },
+  {
+   "key": "events/yourDouble",
+   "kind": "vignette",
+   "group": "vignette:labyrinth",
+   "name": "Your Double",
+   "subject": "a figure stepping out of a tall black-glass mirror, its face hidden in shadow, an identical silhouette standing frozen before it, prismatic cracks across the glass. Camera: a wide, symmetrical, cathedral-like composition, the subject framed by architecture.",
+   "anchor": false
+  },
+  {
+   "key": "events/prismaticGallery",
+   "kind": "vignette",
+   "group": "vignette:labyrinth",
+   "name": "The Prismatic Gallery",
+   "subject": "a gallery of impossible black and prismatic glass sculptures on plinths, thin rainbows splitting across a dark obsidian hall. Camera: a dramatic close-up on the key object or face, the background melting into shadow.",
+   "anchor": false
+  },
+  {
+   "key": "events/shadeSong",
+   "kind": "vignette",
+   "group": "vignette:labyrinth",
+   "name": "Shade-Song",
+   "subject": "wispy shadowy wraiths drifting through an obsidian corridor, their outlines bleeding into the dark, faint violet light. Camera: a tilted, dynamic angle, as if frozen mid-action.",
+   "anchor": false
+  },
+  {
+   "key": "events/glassStair",
+   "kind": "vignette",
+   "group": "vignette:labyrinth",
+   "name": "The Glass Stair",
+   "subject": "a spiral stair of black glass rising into a void of darkness, a tiny turning light at the very top, reflections everywhere. Camera: a three-quarter view from slightly above, the subject lit by its own light source.",
+   "anchor": false
+  },
+  {
+   "key": "events/wardenQuestion",
+   "kind": "vignette",
+   "group": "vignette:labyrinth",
+   "name": "The Warden's Question",
+   "subject": "a tall faceless alien warden in seamless black-glass armour blocking a corridor, holding a long glaive, light refracting through its body. Camera: a low angle looking up at the subject, which towers over the viewer.",
+   "anchor": false
+  },
+  {
+   "key": "events/corsairCache",
+   "kind": "vignette",
+   "group": "vignette:labyrinth",
+   "name": "A Corsair's Cache",
+   "subject": "a hidden alcove in black glass opened to reveal a corsair's stash of sleek alien weapons and gems, an elegant alien lock, prismatic light. Camera: a close, intimate shot; the subject fills the frame in rich texture and detail.",
+   "anchor": false
+  },
+  {
+   "key": "events/blackPool",
+   "kind": "vignette",
+   "group": "vignette:labyrinth",
+   "name": "The Black Pool",
+   "subject": "a perfectly still pool of liquid black glass in an obsidian chamber, its surface reflecting other impossible rooms and moving shapes. Camera: a high angle looking down into the space, the subject small within a vast setting.",
+   "anchor": false
+  },
+  {
+   "key": "events/shardStorm",
+   "kind": "vignette",
+   "group": "vignette:labyrinth",
+   "name": "Shard Storm",
+   "subject": "a whirling storm of floating razor-sharp black glass shards filling an obsidian hall, prismatic glints, explorers' silhouettes shielding their faces. Camera: a side-on view along strong diagonal lines, the subject off-centre to one side.",
+   "anchor": false
+  },
+  {
+   "key": "events/gravityWell",
+   "kind": "vignette",
+   "group": "vignette:core",
+   "name": "The Gravity Well",
+   "subject": "debris orbiting slowly around a point of distorted nothing in a black-stone chamber, tools, bones and a sealed case circling, gravitational lensing, warp glow. Camera: a high angle looking down into the space, the subject small within a vast setting.",
+   "anchor": false
+  },
+  {
+   "key": "events/cultistSermon",
+   "kind": "vignette",
+   "group": "vignette:core",
+   "name": "A Cultist Sermon",
+   "subject": "robed chaos cultists kneeling before a preacher whose eyes leak magenta warp-light, a black-stone chamber lit by braziers, dark ritual marks without lettering. Camera: a side-on view along strong diagonal lines, the subject off-centre to one side.",
+   "anchor": false
+  },
+  {
+   "key": "events/dormantSentinel",
+   "kind": "vignette",
+   "group": "vignette:core",
+   "name": "A Dormant Sentinel",
+   "subject": "a towering inert sentinel construct of black stone standing in an alcove, its chest cavity open revealing a glowing core, faint warp light. Camera: a wide, symmetrical, cathedral-like composition, the subject framed by architecture.",
+   "anchor": false
+  },
+  {
+   "key": "events/bleedingRift",
+   "kind": "vignette",
+   "group": "vignette:core",
+   "name": "A Bleeding Rift",
+   "subject": "a jagged rift torn in the air of a black-stone hall bleeding magenta and sickly green warp-light, shapes of clawed hands pressing from the other side. Camera: a dramatic close-up on the key object or face, the background melting into shadow.",
+   "anchor": false
+  },
+  {
+   "key": "events/floatingWreckage",
+   "kind": "vignette",
+   "group": "vignette:core",
+   "name": "Floating Wreckage",
+   "subject": "a slow weightless river of drifting starship wreckage and broken machines in a vast black-stone hall, something glowing lodged high in the debris. Camera: a tilted, dynamic angle, as if frozen mid-action.",
+   "anchor": false
+  },
+  {
+   "key": "events/renegade",
+   "kind": "vignette",
+   "group": "vignette:core",
+   "name": "The Renegade",
+   "subject": "a gaunt psyker in heavy chains with his eyes stitched shut, kneeling in a black-stone cell, warp-light flickering around his head. Camera: a three-quarter view from slightly above, the subject lit by its own light source.",
+   "anchor": false
+  },
+  {
+   "key": "events/anchorPlates",
+   "kind": "vignette",
+   "group": "vignette:core",
+   "name": "Anchor-Plates",
+   "subject": "great circular anchor-plates of brass and black stone set in a floor in a geometric pattern, some glowing, gravity distortion warping the air above. Camera: a low angle looking up at the subject, which towers over the viewer.",
+   "anchor": false
+  },
+  {
+   "key": "events/engineHymn",
+   "kind": "vignette",
+   "group": "vignette:core",
+   "name": "The Engine's Hymn",
+   "subject": "colossal ancient black-stone engines larger than cathedrals humming with visible sound ripples, tiny explorers before them, warp-light in the seams. Camera: a close, intimate shot; the subject fills the frame in rich texture and detail.",
+   "anchor": false
+  },
+  {
+   "key": "events/blackstoneVein",
+   "kind": "vignette",
+   "group": "vignette:core",
+   "name": "A Blackstone Vein",
+   "subject": "a seam of raw gleaming black stone with veins of warp-light running up a towering wall, a climber's silhouette halfway up. Camera: a high angle looking down into the space, the subject small within a vast setting.",
+   "anchor": false
+  },
+  {
+   "key": "events/lastExpedition",
+   "kind": "vignette",
+   "group": "vignette:core",
+   "name": "The Last Expedition",
+   "subject": "a dead rival explorers' camp in a black-stone chamber, bodies at rest beside neatly packed gear, a guttering lamp, an ominous claw mark on the wall. Camera: a side-on view along strong diagonal lines, the subject off-centre to one side.",
+   "anchor": false
+  },
+  {
+   "key": "events/longDrop",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "The Long Drop",
+   "subject": "a vertical shaft of black stone plunging into darkness, a dead explorer's pack hanging from a piton on a ledge partway down, a lantern beam from above. Camera: a tilted, dynamic angle, as if frozen mid-action.",
+   "anchor": false
+  },
+  {
+   "key": "events/desertersFire",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "Deserters' Fire",
+   "subject": "ragged armsmen deserters in faded ship's uniforms huddled around a small fire in a black-stone alcove, lasguns within reach, wary faces in firelight. Camera: a three-quarter view from slightly above, the subject lit by its own light source.",
+   "anchor": false
+  },
+  {
+   "key": "events/boneAuction",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "A Bone Auction",
+   "subject": "scavengers bidding at a makeshift market on a black-stone ledge, a barker in a skull mask holding up a glowing relic, lanterns and hanging trinkets. Camera: a low angle looking up at the subject, which towers over the viewer.",
+   "anchor": false
+  },
+  {
+   "key": "events/dustTracks",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "Tracks in the Dust",
+   "subject": "fresh bootprints and drag marks through thick dust in an untrodden black-stone hall, a lantern beam following them into darkness. Camera: a close, intimate shot; the subject fills the frame in rich texture and detail.",
+   "anchor": false
+  },
+  {
+   "key": "events/asleepAtPost",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "Asleep at Their Post",
+   "subject": "two rival-crew guards slumped asleep against an open supply crate full of gear in a dim fortress corridor, a guttering lumen overhead. Camera: a high angle looking down into the space, the subject small within a vast setting.",
+   "anchor": false
+  },
+  {
+   "key": "events/lostServoSkull",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "A Lost Servo-Skull",
+   "subject": "a lost servo-skull with a dim optic and trailing cables bumping gently against a black-stone wall, a faint halo of incense smoke. Camera: a side-on view along strong diagonal lines, the subject off-centre to one side.",
+   "anchor": false
+  },
+  {
+   "key": "events/pilgrims",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "Pilgrims in the Dark",
+   "subject": "a long file of hooded pilgrims shuffling through a dark black-stone hall, swinging lanterns and incense, a tattered devotional standard without lettering. Camera: a wide, symmetrical, cathedral-like composition, the subject framed by architecture.",
+   "anchor": false
+  },
+  {
+   "key": "events/falseWall",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "A False Wall",
+   "subject": "a section of black-stone wall swung open like a hidden door revealing a cramped stash room of scrip and relics, a lantern held up to it. Camera: a dramatic close-up on the key object or face, the background melting into shadow.",
+   "anchor": false
+  },
+  {
+   "key": "events/deathEcho",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "An Echo of Death",
+   "subject": "ghostly psychic afterimages of a dying crew replaying their last moments in a black-stone hall, translucent figures mid-scream, cold spectral light. Camera: a tilted, dynamic angle, as if frozen mid-action.",
+   "anchor": false
+  },
+  {
+   "key": "events/diceDen",
+   "kind": "vignette",
+   "group": "vignette:any",
+   "name": "A Scavengers' Dice Den",
+   "subject": "a hidden dice den of scavengers crowded around a bone table, scattered bone dice and scrip, hanging lanterns, shadowy faces and a cheat's sleeve. Camera: a three-quarter view from slightly above, the subject lit by its own light source.",
+   "anchor": false
+  },
+  {
+   "key": "moments/victory",
+   "kind": "vignette",
+   "group": "vignette:moments",
+   "name": "victory",
+   "subject": "close-up of an armoured gauntlet lifting a blood-spattered bone die from the chest of a slain xenos, gun smoke curling through a shaft of hot white light, brass shell casings scattered on black stone. Warm, triumphant gold and red.",
+   "anchor": true
+  },
+  {
+   "key": "moments/lordSlain",
+   "kind": "vignette",
+   "group": "vignette:moments",
+   "name": "lordSlain",
+   "subject": "high angle looking down on the crowned helm of a slain colossal warlord rolling across a cracked black-stone floor, its vast armoured body sprawled in the background, fires burning, embers rising. Blazing orange firelight.",
+   "anchor": false
+  },
+  {
+   "key": "moments/boons",
+   "kind": "vignette",
+   "group": "vignette:moments",
+   "name": "boons",
+   "subject": "top-down view of a gambler's green felt cloth spread with bone dice showing pips, face-up tarot cards painted with a skull and an eagle, and a few strange relics, lit by a single candle. Deep green felt and candle gold.",
+   "anchor": false
+  },
+  {
+   "key": "moments/hoard",
+   "kind": "vignette",
+   "group": "vignette:moments",
+   "name": "hoard",
+   "subject": "low angle up a mountain of plundered treasure: gilded armour, jewelled weapons, open chests spilling coins and glowing xenos relics around a broken throne, glinting in torchlight. Rich gold and jewel tones.",
+   "anchor": false
+  },
+  {
+   "key": "moments/scavenger",
+   "kind": "vignette",
+   "group": "vignette:moments",
+   "name": "scavenger",
+   "subject": "side view of a hunched scavenger-trader leaning over a cluttered stall wedged into a fortress alcove, lenses for eyes, bony fingers holding up a charm, hundreds of dice and relics hanging on strings around them, a swinging green lumen. Sickly green and rust.",
+   "anchor": false
+  },
+  {
+   "key": "moments/retreat",
+   "kind": "vignette",
+   "group": "vignette:moments",
+   "name": "retreat",
+   "subject": "wide high view of a narrow gantry over an abyss, three tiny explorers running toward the warm lights of a ramshackle enclave, carrying a wounded comrade, the vast black-stone fortress mouth erupting with pursuing shadows behind them. Cold blue night, amber enclave lights.",
+   "anchor": false
+  },
+  {
+   "key": "moments/wiped",
+   "kind": "vignette",
+   "group": "vignette:moments",
+   "name": "wiped",
+   "subject": "overhead view of a dented helmet and a dropped lumen lying in spreading blood on black stone, long claw marks gouged into the floor beside them, the lumen's beam pointing into darkness. Cold dead blue-grey light, blood red.",
+   "anchor": false
+  },
+  {
+   "key": "moments/captainLost",
+   "kind": "vignette",
+   "group": "vignette:moments",
+   "name": "captainLost",
+   "subject": "a captain's body lying in state on a stone bier draped in a noble house banner, a sword laid on the chest, rows of tall candles, a single beam of pale light falling from a high window in a dark chapel, mourners kneeling at the far edge. Pale silver light and candle gold.",
+   "anchor": false
+  },
+  {
+   "key": "moments/blooded",
+   "kind": "vignette",
+   "group": "vignette:moments",
+   "name": "blooded",
+   "subject": "side view of a crowded enclave tavern of salvaged bulkheads, survivors cheering and raising tankards to a young explorer with a bandaged head, hanging lumens, steam and warmth. Festive amber and copper.",
+   "anchor": false
+  },
+  {
+   "key": "moments/dynastyEnded",
+   "kind": "vignette",
+   "group": "vignette:moments",
+   "name": "dynastyEnded",
+   "subject": "close-up of a noble signet ring and a torn house banner drifting weightless in the void, behind them a gutted derelict starship being cut apart by scavenger torches, sparks streaming into the dark. Cold void black, scattered sparks.",
+   "anchor": false
+  },
+  {
+   "key": "story/prologue",
+   "kind": "vignette",
+   "group": "vignette:story",
+   "name": "prologue",
+   "subject": "wide space battle: a vast ornate noble flagship being boarded and scuttled by a sleek rival warship, broadsides of fire between them, boarding torpedoes, debris and escape pods, the flagship listing toward a blood-red nebula. Red and gold.",
+   "anchor": true
+  },
+  {
+   "key": "story/docks",
+   "kind": "vignette",
+   "group": "vignette:story",
+   "name": "docks",
+   "subject": "close interior view inside a frost-covered lifeboat: a frozen pilot slumped over the controls, an open log-book on their lap, a noble crest painted on the bulkhead, frozen wrecks visible through the cracked viewport. Icy blue and white.",
+   "anchor": false
+  },
+  {
+   "key": "story/gardens",
+   "kind": "vignette",
+   "group": "vignette:story",
+   "name": "gardens",
+   "subject": "night by an enclave campfire: a tall feathered xenos hunter with a long rifle crouches across the fire, offering a bone carving with one clawed hand, sparks rising between them. Warm firelight against teal jungle dark.",
+   "anchor": false
+  },
+  {
+   "key": "story/reliquary",
+   "kind": "vignette",
+   "group": "vignette:story",
+   "name": "reliquary",
+   "subject": "low angle in a flooded cogitator vault: one towering screen glowing green above black water, showing the outline of a starship beside a wax seal, cables hanging like vines, reflections rippling. Green glow on black water.",
+   "anchor": false
+  },
+  {
+   "key": "story/labyrinth",
+   "kind": "vignette",
+   "group": "vignette:story",
+   "name": "labyrinth",
+   "subject": "black glass exploding into a thousand falling shards, in the largest shard the reflection of a cruel lord on a starship bridge, his hand sunk into black stone, rainbows of refracted light everywhere. Prismatic and violet.",
+   "anchor": false
+  },
+  {
+   "key": "story/core",
+   "kind": "vignette",
+   "group": "vignette:story",
+   "name": "core",
+   "subject": "a colossal ring-shaped engine of black stone, larger than a city, falling still, warp-light dimming in its cracks, a narrow causeway leading across the void toward a distant glowing heart. Magenta warp-light fading to cold dark.",
+   "anchor": false
+  },
+  {
+   "key": "story/finale",
+   "kind": "vignette",
+   "group": "vignette:story",
+   "name": "finale",
+   "subject": "low angle up at a captain's throne on the overgrown bridge of a lost flagship fused into black stone, a cruel lord seated on it with a sealed parchment warrant in his fist, glowing veins of the fortress pulsing through his skin. Sickly green and gold.",
+   "anchor": false
+  },
+  {
+   "key": "story/epilogue",
+   "kind": "vignette",
+   "group": "vignette:story",
+   "name": "epilogue",
+   "subject": "close-up of a sealed parchment warrant resting on a brass lectern on a ship's bridge, golden dawn light pouring through the viewport beyond it, where a vast black-stone fortress dwindles among the stars. Golden dawn.",
    "anchor": false
   }
  ]

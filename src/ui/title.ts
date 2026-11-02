@@ -81,7 +81,7 @@ export function credits(): HTMLElement {
     h('p', null, 'An unofficial fan game. Rules are paraphrased and adapted from the Rogue Trader Roleplaying Game (Core Rulebook, Into the Storm) by Fantasy Flight Games, under licence from Games Workshop. Warhammer 40,000, Rogue Trader and associated names are trademarks of Games Workshop Limited. No challenge to their status is intended.'),
     h('p', null, 'Origin Path, career advance schemes, armoury tables and names come from the Warrant of Trade generator. Every rule on a sheet is tagged exact, adapted or narrative to show how closely it follows the book.'),
     h('p', null, 'The Fortune tray, relics, curses, the Fortress regions and their denizens, the story, and all code are original to this game. Built on Treasure Dice.'),
-    h('p', null, 'Fonts: Pixelify Sans and Alegreya (SIL Open Font License).'),
+    h('p', null, 'Fonts: Pixelify Sans, Chakra Petch and Alegreya (SIL Open Font License).'),
     btn('Back', () => { showCredits = false; render(); }),
   );
 }

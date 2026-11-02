@@ -13,6 +13,7 @@ The Fortune tray and its scoring, relics, curses, dice materials, the Fortress r
 ## Fonts
 
 - Pixelify Sans — SIL Open Font License 1.1
+- Chakra Petch — SIL Open Font License 1.1 (digits only)
 - Alegreya — SIL Open Font License 1.1
 
 ## External services

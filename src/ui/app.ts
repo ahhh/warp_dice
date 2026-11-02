@@ -94,6 +94,7 @@ export function render() {
   clear(root);
   let screen = 'title';
   const g = app.game;
+  closeTownOverlays(g);
   if (g) {
     if (g.phase === 'create') screen = 'create';
     else if (g.lastResult) screen = 'result';
@@ -112,6 +113,21 @@ export function render() {
   afterRender.forEach((f) => f());
   afterRender.length = 0;
   for (const f of postRender) f();
+}
+
+let wasInFortress = false;
+/**
+ * Town menus must never survive into a venture: experience can't be spent in
+ * the Fortress, and a sheet opened in the enclave would cover the fight. The
+ * read-only sheet may still be opened from inside the Fortress.
+ */
+function closeTownOverlays(g: GameState | null) {
+  const inFortress = !!g?.expedition;
+  if (inFortress) {
+    app.ui.advance = undefined;
+    if (!wasInFortress) app.ui.heroSheet = undefined;
+  }
+  wasInFortress = inFortress;
 }
 
 export const afterRender: (() => void)[] = [];

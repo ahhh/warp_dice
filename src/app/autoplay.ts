@@ -199,7 +199,11 @@ export function autoExploreStep(g: GameState): boolean {
     if (exp.event.stage === 'choose') {
       const opts = eventOptions(g);
       const i = opts.findIndex((o) => o.usable && !o.success.some((s) => s.type === 'combat') && !o.label.startsWith('Leave') && !o.label.startsWith('Walk') && !o.success.some((s) => s.type === 'corruption'));
-      dispatch(g, { type: 'eventChoice', idx: i >= 0 ? i : opts.length - 1, useHelper: true });
+      // Fall back to the last option it can actually afford; if a choice still
+      // fails, close the event rather than retrying the same command forever.
+      const fallback = opts.map((o, k) => (o.usable ? k : -1)).filter((k) => k >= 0).pop() ?? -1;
+      const pick = i >= 0 ? i : fallback;
+      if (pick < 0 || !dispatch(g, { type: 'eventChoice', idx: pick, useHelper: true }).ok) dispatch(g, { type: 'eventClose' });
     } else if (exp.event.stage === 'pickDie') {
       const die = exp.fortune.bag.find((d) => d.material === 'iron') ?? exp.fortune.bag[0];
       dispatch(g, { type: 'sacrifice', dieUid: die.uid });

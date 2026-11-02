@@ -26,6 +26,15 @@ export function art(key: string, alt: string, cls = '', color = '#3a4a7a'): HTML
   return h('div', { class: `art placeholder ${cls}`, role: 'img', 'aria-label': alt, style: `--ph:${color}` }, initials || '?');
 }
 
+/**
+ * An illustrated banner for the top of a popup or story beat. Unlike art(),
+ * there is no placeholder: without the image the popup simply has no banner.
+ */
+export function vignette(key: string, alt = ''): HTMLElement | null {
+  if (!keys.has(key)) return null;
+  return h('img', { class: 'vignette', src: artUrl(key), alt, draggable: 'false' });
+}
+
 export function bgStyle(key: string, fallback: string) {
   return keys.has(key) ? `background-image:linear-gradient(to bottom, rgba(6,10,24,.15), rgba(6,10,24,.75)), url(${artUrl(key)})` : `background:${fallback}`;
 }

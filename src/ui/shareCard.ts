@@ -13,7 +13,7 @@ import { BIOMES, BIOME_ORDER } from '../content/biomes.ts';
 import { FINALE_LEVEL, storyOf } from '../content/story.ts';
 
 export const W = 1080, H = 1350;
-const HEAD = '"Pixelify Sans", system-ui, sans-serif';
+const HEAD = '"UI Digits", "Pixelify Sans", system-ui, sans-serif';
 const BODY = 'Alegreya, Georgia, serif';
 const SITE = 'WARP DICE · A ROGUE TRADER ROGUELITE';
 const PRISM = ['#e4643a', '#5aa9ff', '#5fae5b', '#dfe8f5', '#9b7bff', '#e4643a'];
@@ -180,7 +180,11 @@ export async function renderShareCard(game: GameState, canvas: HTMLCanvasElement
   const tier = rankOf(game);
   const R = RANKS[tier];
   const story = storyOf(game);
-  await Promise.all([`600 40px "Pixelify Sans"`, '700 20px Alegreya', 'italic 20px Alegreya'].map((f) => document.fonts.load(f))).catch(() => undefined);
+  await Promise.all([
+    document.fonts.load(`600 40px "Pixelify Sans"`),
+    document.fonts.load('600 40px "UI Digits"', '0123456789'), // unicode-range face: must request digits or nothing loads
+    ...['700 20px Alegreya', 'italic 20px Alegreya'].map((f) => document.fonts.load(f)),
+  ]).catch(() => undefined);
 
   // Backdrop.
   g.fillStyle = '#070b1a';

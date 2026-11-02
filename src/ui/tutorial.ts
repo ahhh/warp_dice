@@ -1,7 +1,7 @@
 /**
- * The guided tour: coach marks over the enclave, then the hand-built Nursery
- * venture (movement, one fight, salvage, the warp-key and a gentle keeper),
- * then advancement. Progress lives in GameState.tutorial so it survives saves;
+ * The guided tour: coach marks over the enclave, spending the crew's starting
+ * experience, then the hand-built Nursery venture (movement, one fight,
+ * salvage, the warp-key and a gentle keeper). Progress lives in GameState.tutorial so it survives saves;
  * it is null once finished or skipped. A step either blocks the screen and
  * waits for Next, or parks a reminder in the corner and advances when `done`
  * holds.
@@ -9,6 +9,7 @@
 import type { GameState } from '../engine/types.ts';
 import { h } from './dom.ts';
 import { app, render, persist, postRender } from './app.ts';
+import { listAdvances, boonsAvailable } from '../rules/advance.ts';
 
 type Where = 'town' | 'dungeon' | 'combat' | 'result' | 'any';
 
@@ -16,7 +17,7 @@ interface Step {
   where: Where;
   title: string;
   text: string;
-  target?: string;
+  target?: string | (() => string);
   next?: boolean;
   done?: (g: GameState) => boolean;
   tab?: string;
@@ -30,9 +31,16 @@ function where(g: GameState): Where {
   return 'town';
 }
 
+/** Anyone in the crew who could still buy something (or take a Rank boon). */
+function crewCanAdvance(g: GameState): boolean {
+  return g.roster.some((h) => h.status === 'alive' && (boonsAvailable(h) > 0 || listAdvances(h).some((o) => o.ok)));
+}
+
 const STEPS: Step[] = [
   { where: 'town', next: true, title: 'Welcome to the enclave', text: 'Survivors camp at the mouth of the Blackstone Fortress. Here you bank Thrones, trade treasure, buy gear and spend experience. Everything you need to rebuild your House starts with one venture.' },
   { where: 'town', next: true, tab: 'guild', target: '[data-tut="roster"]', title: 'Your crew', text: 'The Lord-Captain (⚜) and their retainers. Click anyone for their full sheet: Characteristics, armour by location, weapons, skills, Origin Path and career features. If the Lord-Captain dies with no Fate left to burn, the Dynasty ends.' },
+  { where: 'town', tab: 'guild', target: '[data-tut="levelup"]', title: 'Spend your experience', text: 'Every explorer arrives with experience to spend. Click Advance on the Lord-Captain\'s card.', done: (g) => !!app.ui.advance || !crewCanAdvance(g) },
+  { where: 'town', tab: 'guild', target: () => (app.ui.advance ? '[data-tut="adv-auto"]' : '[data-tut="levelup"]'), title: 'Advancement', text: 'Experience buys Characteristics (+5 each), Skills and Talents; your career sets the price. Buy what you like, or press Spend as recommended. Then click Done and Advance the rest of the crew. Once nobody has anything left to buy, the tour moves on.', done: (g) => !app.ui.advance && !crewCanAdvance(g) },
   { where: 'town', tab: 'cartographer', target: '[data-key="tab-cartographer"]', title: 'Go to the Fortress Approach', text: 'Open the Fortress Approach tab to choose a party and a region.', done: () => app.ui.townTab === 'cartographer' },
   { where: 'town', tab: 'cartographer', target: '[data-key="start-tutorial"]', title: 'The Nursery', text: 'The enclave blooded every crew in this short spur of the Fortress. Nobody dies there. Enter it with your whole crew.', done: (g) => !!g.expedition?.tutorial },
   { where: 'dungeon', target: '.dpad', title: 'Moving', text: 'Use Forward, Left, Right and Back (or the arrow keys). Directions are relative to the way you face. The auspex map fills in as you go. Head Forward.', done: (g) => !!g.expedition?.combat || (g.expedition?.visited.length ?? 0) > 2 },
@@ -82,10 +90,14 @@ function draw() {
   const here = where(g);
   if (s.where !== 'any' && s.where !== here) return;
   if (t.step !== lastStep) { lastStep = t.step; }
-  const target = s.target ? document.querySelector(s.target) as HTMLElement | null : null;
-  if (target) target.classList.add('coach-hl');
+  const sel = typeof s.target === 'function' ? s.target() : s.target;
+  const target = sel ? document.querySelector(sel) as HTMLElement | null : null;
+  // The highlight lifts its target above modals, so only mark things the
+  // player can actually reach: never a button underneath an open menu.
+  const modalOpen = document.querySelector('.modal-back');
+  if (target && (!modalOpen || modalOpen.contains(target))) target.classList.add('coach-hl');
   const blocking = !!s.next;
-  const bubble = h('div', { class: `coach ${blocking ? 'blocking' : 'free'}`, role: 'dialog', 'aria-label': s.title },
+  const bubble = h('div', { class: `coach ${blocking ? 'blocking' : 'free'}${modalOpen ? ' over-modal' : ''}`, role: 'dialog', 'aria-label': s.title },
     h('div', { class: 'coach-step small muted' }, `Guided tour ${t.step + 1}/${STEPS.length}`),
     h('b', null, s.title),
     h('p', null, s.text),

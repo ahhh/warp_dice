@@ -441,14 +441,18 @@ export function train(g: GameState, heroId: string): string | null {
   return null;
 }
 
+const ADVANCE_IN_TOWN = 'Experience is spent in the enclave, between ventures.';
+
 export function advance(g: GameState, heroId: string, advId: string, boon = false): string | null {
   const h = g.roster.find((x) => x.id === heroId);
+  if (g.expedition) return ADVANCE_IN_TOWN;
   if (!h || h.status !== 'alive') return 'No explorer.';
   return buyAdvance(h, advId, { boon });
 }
 
 export function autoAdvance(g: GameState, heroId: string): string | null {
   const h = g.roster.find((x) => x.id === heroId);
+  if (g.expedition) return ADVANCE_IN_TOWN;
   if (!h || h.status !== 'alive') return 'No explorer.';
   autoSpend(h);
   return null;

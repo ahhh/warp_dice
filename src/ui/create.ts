@@ -78,8 +78,8 @@ function houseStep(d: Draft): HTMLElement {
       h('p', { class: 'prose' }, 'The wreck was dragged into a Blackstone Fortress — a xenos vault older than the Imperium, whose halls shift with every venture. Survivors trade at an enclave by its mouth. You will go in, come back with Thrones and treasure, and rebuild. If the Lord-Captain dies, the Dynasty dies with them.')),
     h('div', { class: 'win' },
       h('h2', null, 'Name your House'),
-      h('div', { class: 'row' }, h('label', { for: 'dyn' }, 'House'), input(d.dynasty, (v) => { d.dynasty = v; }, 'dyn'), btn('Random', () => { d.dynasty = new Rng([Date.now() >>> 0, 1, 2, 3]).pick(NAMES.dynasty); render(); }, { cls: 'small' })),
-      h('div', { class: 'row', style: 'margin-top:8px' }, h('label', { for: 'ship' }, 'Lost flagship'), input(d.ship, (v) => { d.ship = v; }, 'ship'), btn('Random', () => { d.ship = new Rng([Date.now() >>> 0, 4, 5, 6]).pick(NAMES.ships); render(); }, { cls: 'small' })),
+      h('div', { class: 'row' }, h('label', { for: 'dyn' }, 'House'), input(d.dynasty, (v) => { d.dynasty = v; }, 'dyn'), btn('Random', () => { d.dynasty = rnd().pick(NAMES.dynasty); render(); }, { cls: 'small' })),
+      h('div', { class: 'row', style: 'margin-top:8px' }, h('label', { for: 'ship' }, 'Lost flagship'), input(d.ship, (v) => { d.ship = v; }, 'ship'), btn('Random', () => { d.ship = rnd().pick(NAMES.ships); render(); }, { cls: 'small' })),
       h('p', { class: 'small muted' }, 'You limp out to the Fortress aboard a derelict trader. The flagship is what you are looking for.')),
     nav(d, () => (d.dynasty.trim() ? null : 'Name your House.')));
 }

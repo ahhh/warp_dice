@@ -2,7 +2,7 @@
 import type { ZoneId, EquipSlot, Hero, ItemInstance } from '../engine/types.ts';
 import { h, btn, fmt } from './dom.ts';
 import { app, run, render, setGame, toast } from './app.ts';
-import { bgStyle, art } from './art.ts';
+import { bgStyle, art, vignette } from './art.ts';
 import { heroPortrait, heroLine, hpBar, itemIcon, charmEl, thrones } from './widgets.ts';
 import { CAREERS } from '../content/careers.ts';
 import { ITEMS, MODS, CRAFTS, CRAFT_ORDER, itemName, availName, modFits, AVAIL } from '../content/items.ts';
@@ -184,6 +184,7 @@ function chronicleTab(): HTMLElement {
   const pro = prologue(g);
   return h('div', { class: 'col' },
     h('div', { class: 'win chronicle', 'data-tut': 'story' },
+      vignette('story/prologue', pro.title),
       h('div', { class: 'chapter-head' }, pro.head), h('h2', null, pro.title), ...pro.text.map(para),
       h('div', { class: 'heads' }, ...BIOME_ORDER.map((b) => {
         const done = (g.profile.sigils[b] ?? 0) > 0;
@@ -193,10 +194,12 @@ function chronicleTab(): HTMLElement {
       const c = CHAPTERS[b];
       const earned = (g.profile.sigils[b] ?? 0) > 0;
       return h('div', { class: `win chronicle ${earned ? '' : 'sealed'}` },
+        earned ? vignette(`story/${b}`, c.title) : null,
         h('div', { class: 'chapter-head' }, `${c.head} · ${BIOMES[b].name}`),
         earned ? [h('h2', null, c.title), ...c.text.map(para)] : h('p', { class: 'muted' }, `Clear ${BIOMES[b].name} to read this chapter.`));
     }),
     h('div', { class: 'win chronicle finale-win' },
+      vignette(story.warrant ? 'story/epilogue' : 'story/finale', FINALE.name),
       h('div', { class: 'chapter-head' }, 'The Final Venture'),
       h('h2', null, `⚜ ${FINALE.name}`),
       para(FINALE.premise),

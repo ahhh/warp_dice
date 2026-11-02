@@ -4,6 +4,23 @@
 @import '@fontsource/alegreya/400-italic.css';
 @import '@fontsource/alegreya/700.css';
 
+/* Pixelify's digits are hard to tell apart (3/8, 5/6, 1/7). Swap in a clearer
+   face for 0-9 only via unicode-range; letters stay Pixelify. */
+@font-face {
+  font-family: 'UI Digits';
+  font-weight: 400 500;
+  font-display: swap;
+  src: url('@fontsource/chakra-petch/files/chakra-petch-latin-500-normal.woff2') format('woff2');
+  unicode-range: U+0030-0039;
+}
+@font-face {
+  font-family: 'UI Digits';
+  font-weight: 600 900;
+  font-display: swap;
+  src: url('@fontsource/chakra-petch/files/chakra-petch-latin-600-normal.woff2') format('woff2');
+  unicode-range: U+0030-0039;
+}
+
 :root {
   --night: #06060a;
   --win-a: #1a1820;
@@ -23,7 +40,7 @@
   --muted: #918a7a;
   --danger: #ff6a5c;
   --warp: #7a63b8;
-  --ui: 'Pixelify Sans', system-ui, sans-serif;
+  --ui: 'UI Digits', 'Pixelify Sans', system-ui, sans-serif;
   --prose: 'Alegreya', Georgia, serif;
   --r: 3px;
 }
@@ -320,6 +337,12 @@ img { display: block; }
 .modal-back { position: fixed; inset: 0; background: rgba(2, 4, 12, .72); display: grid; place-items: center; z-index: 50; padding: 16px; }
 .modal { width: min(920px, 100%); max-height: calc(100vh - 32px); overflow-y: auto; }
 .modal.narrow { width: min(560px, 100%); }
+/* Popup banner: bleeds to the window's edges (cancelling .win padding) and
+   fades into the panel below. */
+.vignette { display: block; width: calc(100% + 28px); max-width: none; margin: -12px -14px 12px; aspect-ratio: 12 / 5; object-fit: cover; object-position: center; border-radius: var(--r) var(--r) 0 0; -webkit-mask-image: linear-gradient(to bottom, #000 62%, transparent); mask-image: linear-gradient(to bottom, #000 62%, transparent); animation: vignetteIn .5s ease-out; }
+.modal.narrow .vignette { aspect-ratio: 2 / 1; }
+@keyframes vignetteIn { from { opacity: 0; filter: brightness(.4); } to { opacity: 1; filter: none; } }
+@media (prefers-reduced-motion: reduce) { .vignette { animation: none; } }
 .boons { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
 .boon { border: 2px solid var(--brass); border-radius: 10px; padding: 12px; background: linear-gradient(180deg, #1c2a20, #0f1a13); cursor: pointer; display: flex; flex-direction: column; gap: 6px; text-align: left; transition: transform .15s; }
 .boon:hover:not(:disabled) { transform: translateY(-4px); box-shadow: 0 0 0 2px var(--gold); }
@@ -475,6 +498,8 @@ table.mini td, table.mini th { padding: 3px 6px; border-bottom: 1px solid rgba(2
 @media (max-width: 640px) { .abil { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
 .coach { position: fixed; inset: auto; right: 14px; bottom: 14px; z-index: 80; pointer-events: auto; width: min(360px, calc(100vw - 28px)); background: #16131c; border: 2px solid var(--gold); border-radius: 6px; padding: 12px 14px; box-shadow: 0 14px 40px #000c; font-size: 14px; }
 .coach p { font-family: var(--prose); font-size: 15px; line-height: 1.4; margin: 6px 0; }
+/* Over an open menu, sit bottom-left so the menu's right-aligned Done stays clear. */
+.coach.free.over-modal { right: auto; left: 14px; }
 .coach.blocking { left: 50%; top: 50%; right: auto; bottom: auto; transform: translate(-50%, -50%); box-shadow: 0 0 0 9999px rgba(3, 3, 6, .6), 0 14px 40px #000c; }
 .coach-hl { outline: 3px solid var(--gold) !important; outline-offset: 3px; box-shadow: 0 0 18px var(--gold); position: relative; z-index: 61; }
 .gameover .result-big { font-size: clamp(28px, 5vw, 46px); }
