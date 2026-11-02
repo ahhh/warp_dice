@@ -452,7 +452,7 @@ table.mini td, table.mini th { padding: 3px 6px; border-bottom: 1px solid rgba(2
 .die.throne { background: radial-gradient(circle at 30% 25%, #fff6c8, transparent 45%), linear-gradient(135deg, #f2c94c, #a67c18); }
 .coin.scrip { background: radial-gradient(circle at 35% 30%, #e7e0ff, #7a63b8 60%, #2b1a6a); border-radius: 2px; transform: rotate(45deg); width: 13px; height: 13px; }
 .portrait.captain, .hero-card.captain { box-shadow: 0 0 0 2px var(--gold), 0 0 14px rgba(230, 195, 90, .5); }
-.aquila { color: var(--brass-dark); letter-spacing: .5em; font-size: 22px; text-align: center; }
+.title-aquila { color: var(--brass-dark); letter-spacing: .5em; font-size: 22px; text-align: center; }
 .title-pitch { text-align: center; margin: 6px auto 14px; color: var(--bone-dim); }
 .step-pill { font-size: 13px; padding: 3px 8px; border: 1px solid #4a4334; border-radius: 3px; color: var(--muted); }
 .step-pill.on { color: var(--night); background: var(--gold); border-color: var(--gold); }

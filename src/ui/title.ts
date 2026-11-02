@@ -43,7 +43,7 @@ export function titleScreen(): HTMLElement {
   const seal = [10, 10, 10, 10, 10];
   return h('div', { class: 'title-screen', style: bgStyle('town/fortress', 'radial-gradient(ellipse at 50% 20%, #2a1c3a, #050508 70%)') + ';background-size:cover;background-position:center' },
     h('div', { class: 'title-inner' },
-      h('div', { class: 'aquila', 'aria-hidden': 'true' }, '⚜ ✠ ⚜'),
+      h('div', { class: 'title-aquila', 'aria-hidden': 'true' }, '⚜ ✠ ⚜'),
       h('h1', { class: 'logo' }, 'Warp Dice', h('small', null, 'The Blackstone Venture')),
       h('p', { class: 'prose title-pitch' }, 'You are a Rogue Trader who has lost everything but a name. A Blackstone Fortress drifts at the edge of the Expanse. Somewhere inside is your Warrant.'),
       h('div', { class: 'title-dice', 'aria-hidden': 'true' }, ...seal.map((v, i) => dieFace(v, (['aquila', 'adamant', 'warp', 'cog', 'eye'] as const)[i], undefined, { cls: 'rolling' }))),
