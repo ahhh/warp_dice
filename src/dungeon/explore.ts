@@ -618,7 +618,9 @@ function grantSpoils(g: GameState) {
   }
   for (const id of combat.diedThisFight) if (!exp.fallen.includes(id)) exp.fallen.push(id);
   exp.spoils = { gold, doubloons: base, interest: intr, items, kind, rank: exp.fortune.rank, charmBonus, xp };
-  exp.boons = { offers: rollBoons(loot, exp.fortune, kind === 'boss' ? 'boss' : kind === 'elite' ? 'elite' : 'normal'), source: kind, picks: kind === 'boss' ? 2 : 1 };
+  // The Fortune run ends with the expedition, so a boon after the region's lord falls
+  // would be spent on nothing: the boss pays out in loot (the item choice) instead.
+  if (kind !== 'boss') exp.boons = { offers: rollBoons(loot, exp.fortune, kind === 'elite' ? 'elite' : 'normal'), source: kind, picks: 1 };
   if (kind === 'boss') {
     exp.flags.bossRounds = combat.round;
     exp.bossDefeated = true;

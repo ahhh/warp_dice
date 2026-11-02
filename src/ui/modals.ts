@@ -131,15 +131,17 @@ export function advanceModal(id: string): HTMLElement {
 export function spoilsModal(): HTMLElement {
   const exp = app.game!.expedition!;
   const s = exp.spoils!;
+  const boss = s.kind === 'boss';
   return modal([
-    h('h2', { class: 'result-big gold' }, s.kind === 'boss' ? 'The region\'s lord is dead!' : 'Victory!'),
+    h('h2', { class: 'result-big gold' }, boss ? 'The region\'s lord is dead!' : 'Victory!'),
     h('div', { class: 'col', style: 'align-items:center;margin:10px 0' },
       h('div', { class: 'row' }, h('span', { class: 'coin' }), h('b', { class: 'gold' }, `+${s.gold} Thrones`), h('span', { class: 'small muted' }, '(carried — bank it by getting out alive)')),
-      h('div', { class: 'row' }, 'Scrip: ', h('b', { class: 'gold' }, `+${s.doubloons}`), ' + interest ', h('b', { class: 'gold' }, `+${s.interest}`), s.charmBonus ? [' + relics ', h('b', { class: 'gold' }, `+${s.charmBonus}`)] : null),
+      boss ? null : h('div', { class: 'row' }, 'Scrip: ', h('b', { class: 'gold' }, `+${s.doubloons}`), ' + interest ', h('b', { class: 'gold' }, `+${s.interest}`), s.charmBonus ? [' + relics ', h('b', { class: 'gold' }, `+${s.charmBonus}`)] : null),
       h('div', { class: 'small' }, `+${s.xp} xp toward the venture`),
       ...s.items.map((i) => h('div', null, 'Found: ', h('b', null, i))),
-      h('div', { class: 'result-big', style: 'font-size:28px;margin-top:8px' }, `Fortune Rank ${s.rank}`),
-      h('p', { class: 'small muted' }, s.rank % 3 === 0 ? 'A milestone rank: choose a permanent upgrade for this venture.' : 'Choose a boon for this venture.')),
+      boss ? h('p', { class: 'small muted' }, 'Claim a prize from the lord\'s hoard, then return to the enclave in triumph.')
+        : [h('div', { class: 'result-big', style: 'font-size:28px;margin-top:8px' }, `Fortune Rank ${s.rank}`),
+          h('p', { class: 'small muted' }, s.rank % 3 === 0 ? 'A milestone rank: choose a permanent upgrade for this venture.' : 'Choose a boon for this venture.')]),
     h('div', { class: 'row', style: 'justify-content:center' }, btn('Claim', () => { sfx.coin(); run({ type: 'closeSpoils' }); }, { cls: 'primary big', key: 'claim' })),
   ], { narrow: true, label: 'Victory' });
 }

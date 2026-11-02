@@ -75,7 +75,6 @@ export function heroTurnStart(ctx: Ctx, c: Combatant) {
   const quick = has(c, 'quickened');
   if (quick) removeCondition(c, 'quickened');
   ctx.combat.turn = { actorId: c.id, plays: 1 + (quick ? 1 : 0), playsUsed: 0, playLimit: 5, flags: {} };
-  if (h.talents.includes('quickDraw') && !ctx.combat.once[`${h.id}:quickDraw`]) { ctx.combat.once[`${h.id}:quickDraw`] = true; c.used.half += 1; }
   const size = trayLimit(ctx);
   if (run.tray.length < size) spendDice(run, ctx.fortuneRng, [], size);
   log(ctx, `${c.name}'s turn.`, 'info');
@@ -809,7 +808,12 @@ function resolve(ctx: Ctx, opt: ActionOption, cmd: Extract<CombatCmd, { type: 'a
   const key = opt.key;
   const attackModes: Record<string, AttackSpec['mode']> = { std: 'std', semi: 'semi', full: 'full', called: 'called', allOut: 'allOut', charge: 'charge', multi: 'multi' };
   if (attackModes[key]) {
-    spend(c, opt.cost);
+    // Quick Draw: the first attack each combat is free if it is a Half Action. A Full
+    // Action attack still costs the whole turn (it used to leave a spare Half Action).
+    const quickDraw = h.talents.includes('quickDraw') && !ctx.combat.once[`${h.id}:quickDraw`];
+    if (quickDraw) ctx.combat.once[`${h.id}:quickDraw`] = true;
+    if (quickDraw && opt.cost === 'half') log(ctx, `${c.name} draws and fires in one motion (Quick Draw).`, 'info');
+    else spend(c, opt.cost);
     const mode = attackModes[key];
     let swings = [d.main];
     if (mode === 'multi') swings = multiSwings(h, d);

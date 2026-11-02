@@ -30,7 +30,7 @@ const seenRarity = new Set<string>();
 for (const c of CHARMS) {
   const anchor = !seenRarity.has(c.rarity);
   seenRarity.add(c.rarity);
-  out.push({ key: `charms/${c.id}`, kind: 'icon', group: `relic:${c.rarity}`, name: c.name, subject: `a relic or curio called "${c.name}", found in a xenos Blackstone Fortress. ${STYLE}.`, anchor });
+  out.push({ key: `charms/${c.id}`, kind: 'icon', group: `relic:${c.rarity}`, name: c.name, subject: `a single small relic or curio called "${c.name}" — paint the literal object the name suggests, salvaged from a derelict black-stone xenos fortress. ${STYLE}.`, anchor });
 }
 const seenCat = new Set<string>();
 for (const d of Object.values(ITEMS)) {
@@ -47,7 +47,7 @@ const SCENES: Record<string, Record<string, string>> = {
 };
 for (const [b, scenes] of Object.entries(SCENES)) for (const [s, text] of Object.entries(scenes)) out.push({ key: `scenes/${b}_${s}`, kind: 'scene', group: `scene:${b}`, name: `${BIOMES[b as keyof typeof BIOMES].name} — ${s}`, subject: `${text}. ${STYLE}.`, anchor: s === 'corridor' });
 const TOWN: Record<string, string> = {
-  fortress: 'a vast black Blackstone Fortress drifting in the void, a tiny derelict trader beside it, the enclave\'s lights at its mouth',
+  fortress: 'a vast, ancient black-stone xenos fortress drifting in the void, a tiny derelict trader beside it, the enclave\'s lights at its mouth',
   guild: 'a muster hall in a survivor enclave of salvaged bulkheads and hanging lumens',
   chronicle: 'a Rogue Trader\'s ledger and a broken Warrant of Trade seal by candlelight',
   market: 'a crowded void-port market of stalls selling guns, armour and chems',
