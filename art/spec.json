@@ -1,0 +1,2414 @@
+{
+ "game": "warp_dice",
+ "count": 301,
+ "entries": [
+  {
+   "key": "heroes/rogueTrader_1",
+   "kind": "portrait",
+   "group": "career:rogueTrader",
+   "name": "Rogue Trader",
+   "subject": "a weathered noble captain in a moth-eaten brocade greatcoat, a best-crafted laspistol and a mono-sword, defiant eyes. A Rogue Trader — Master of starships, leader, diplomat and rogue. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "heroes/rogueTrader_2",
+   "kind": "portrait",
+   "group": "career:rogueTrader",
+   "name": "Rogue Trader",
+   "subject": "a sharp-featured noblewoman captain with a tricorne, purity seals and a duelling pistol. A Rogue Trader — Master of starships, leader, diplomat and rogue. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/rogueTrader_3",
+   "kind": "portrait",
+   "group": "career:rogueTrader",
+   "name": "Rogue Trader",
+   "subject": "an older dynast with augmetic jaw and gilded epaulettes gone green with age. A Rogue Trader — Master of starships, leader, diplomat and rogue. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/rogueTrader_4",
+   "kind": "portrait",
+   "group": "career:rogueTrader",
+   "name": "Rogue Trader",
+   "subject": "a young heir in a too-large captain's coat with a signet ring and a hard stare. A Rogue Trader — Master of starships, leader, diplomat and rogue. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/archMilitant_1",
+   "kind": "portrait",
+   "group": "career:archMilitant",
+   "name": "Arch-militant",
+   "subject": "a scarred mercenary in enforcer carapace with a hellgun and a mono-knife. A Arch-militant — Warrior without peer, leader of soldiers. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "heroes/archMilitant_2",
+   "kind": "portrait",
+   "group": "career:archMilitant",
+   "name": "Arch-militant",
+   "subject": "a death-world huntress with braided hair, furs over flak and a chainsword. A Arch-militant — Warrior without peer, leader of soldiers. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/archMilitant_3",
+   "kind": "portrait",
+   "group": "career:archMilitant",
+   "name": "Arch-militant",
+   "subject": "a towering ex-guardsman with a heavy stubber and a battered helmet. A Arch-militant — Warrior without peer, leader of soldiers. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/archMilitant_4",
+   "kind": "portrait",
+   "group": "career:archMilitant",
+   "name": "Arch-militant",
+   "subject": "a lean duellist bounty hunter with two bolt pistols and a bounty slate. A Arch-militant — Warrior without peer, leader of soldiers. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/astropath_1",
+   "kind": "portrait",
+   "group": "career:astropath",
+   "name": "Astropath Transcendent",
+   "subject": "a blind soul-bound astropath in green robes with empty eye sockets and a staff. A Astropath Transcendent — Communicator of the Imperium, soul-bound psyker. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "heroes/astropath_2",
+   "kind": "portrait",
+   "group": "career:astropath",
+   "name": "Astropath Transcendent",
+   "subject": "a gaunt astropath woman with a shaven head, psy-focus pendant and pale skin. A Astropath Transcendent — Communicator of the Imperium, soul-bound psyker. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/astropath_3",
+   "kind": "portrait",
+   "group": "career:astropath",
+   "name": "Astropath Transcendent",
+   "subject": "an elderly astropath with wired skull and a hood, hands glowing faintly. A Astropath Transcendent — Communicator of the Imperium, soul-bound psyker. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/astropath_4",
+   "kind": "portrait",
+   "group": "career:astropath",
+   "name": "Astropath Transcendent",
+   "subject": "a young astropath with bandaged eyes and a choir collar. A Astropath Transcendent — Communicator of the Imperium, soul-bound psyker. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/explorator_1",
+   "kind": "portrait",
+   "group": "career:explorator",
+   "name": "Explorator",
+   "subject": "a Mechanicus magos in red robes with mechadendrites and a glowing optic. A Explorator — Master of machinery, seeker of ancient technology. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "heroes/explorator_2",
+   "kind": "portrait",
+   "group": "career:explorator",
+   "name": "Explorator",
+   "subject": "a tech-priestess with brass augmetics, a servo-skull and an axe-staff. A Explorator — Master of machinery, seeker of ancient technology. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/explorator_3",
+   "kind": "portrait",
+   "group": "career:explorator",
+   "name": "Explorator",
+   "subject": "a hunched explorator with a respirator mask and cabled spine. A Explorator — Master of machinery, seeker of ancient technology. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/explorator_4",
+   "kind": "portrait",
+   "group": "career:explorator",
+   "name": "Explorator",
+   "subject": "a towering magos with a power axe and many-lensed eyes. A Explorator — Master of machinery, seeker of ancient technology. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/missionary_1",
+   "kind": "portrait",
+   "group": "career:missionary",
+   "name": "Missionary",
+   "subject": "a zealous missionary in ecclesiarchal robes with a chainsword and censer. A Missionary — Emissary of the Emperor's word, healer and leader. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "heroes/missionary_2",
+   "kind": "portrait",
+   "group": "career:missionary",
+   "name": "Missionary",
+   "subject": "a scarred preacher with a flamer, aquila pendant and fierce beard. A Missionary — Emissary of the Emperor's word, healer and leader. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/missionary_3",
+   "kind": "portrait",
+   "group": "career:missionary",
+   "name": "Missionary",
+   "subject": "a sister of the creed with a book of litanies chained to her belt. A Missionary — Emissary of the Emperor's word, healer and leader. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/missionary_4",
+   "kind": "portrait",
+   "group": "career:missionary",
+   "name": "Missionary",
+   "subject": "an old confessor with a staff, rosarius and burning eyes. A Missionary — Emissary of the Emperor's word, healer and leader. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/navigator_1",
+   "kind": "portrait",
+   "group": "career:navigator",
+   "name": "Navigator",
+   "subject": "a pale Navis Nobilite with a silk headscarf over the third eye and fine robes. A Navigator — Mutant, pilot of the warp. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "heroes/navigator_2",
+   "kind": "portrait",
+   "group": "career:navigator",
+   "name": "Navigator",
+   "subject": "a haughty navigator woman with elongated fingers and a jewelled bandana. A Navigator — Mutant, pilot of the warp. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/navigator_3",
+   "kind": "portrait",
+   "group": "career:navigator",
+   "name": "Navigator",
+   "subject": "a mutated old navigator with dark eyes and a hellpistol. A Navigator — Mutant, pilot of the warp. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/navigator_4",
+   "kind": "portrait",
+   "group": "career:navigator",
+   "name": "Navigator",
+   "subject": "a young navigator scion with an ornate staff and nervous hands. A Navigator — Mutant, pilot of the warp. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/seneschal_1",
+   "kind": "portrait",
+   "group": "career:seneschal",
+   "name": "Seneschal",
+   "subject": "a smiling seneschal in fine robes with a data-slate and a hidden hellpistol. A Seneschal — Keeper of secret knowledge, subtle investigator. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "heroes/seneschal_2",
+   "kind": "portrait",
+   "group": "career:seneschal",
+   "name": "Seneschal",
+   "subject": "a cool-eyed factotum woman in a cameleoline cloak. A Seneschal — Keeper of secret knowledge, subtle investigator. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/seneschal_3",
+   "kind": "portrait",
+   "group": "career:seneschal",
+   "name": "Seneschal",
+   "subject": "a bookish accountant with augmetic lenses and ink-stained fingers. A Seneschal — Keeper of secret knowledge, subtle investigator. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/seneschal_4",
+   "kind": "portrait",
+   "group": "career:seneschal",
+   "name": "Seneschal",
+   "subject": "a slick underhive fixer with rings on every finger. A Seneschal — Keeper of secret knowledge, subtle investigator. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/voidMaster_1",
+   "kind": "portrait",
+   "group": "career:voidMaster",
+   "name": "Void-master",
+   "subject": "a void-born pilot with void-pallor, flight jacket and a hand cannon. A Void-master — Pilot, gunner, and master of space. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "heroes/voidMaster_2",
+   "kind": "portrait",
+   "group": "career:voidMaster",
+   "name": "Void-master",
+   "subject": "a naval gunnery officer woman with a cutlass and naval uniform. A Void-master — Pilot, gunner, and master of space. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/voidMaster_3",
+   "kind": "portrait",
+   "group": "career:voidMaster",
+   "name": "Void-master",
+   "subject": "a grizzled helmsman with a vox-bead and a power sword. A Void-master — Pilot, gunner, and master of space. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "heroes/voidMaster_4",
+   "kind": "portrait",
+   "group": "career:voidMaster",
+   "name": "Void-master",
+   "subject": "a lanky void-born with a rebreather and twin pistols. A Void-master — Pilot, gunner, and master of space. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/docks_gretchin",
+   "kind": "sprite",
+   "group": "zone:docks",
+   "name": "Gretchin Looter",
+   "subject": "a scrawny green gretchin with huge ears, a rusty blasta and a sack bulging with stolen dice. Small, green, and very interested in your dice.",
+   "anchor": true
+  },
+  {
+   "key": "monsters/docks_orkBoy",
+   "kind": "sprite",
+   "group": "zone:docks",
+   "name": "Ork Freeboota",
+   "subject": "a hulking green Ork freebooter in a stolen Imperial navy greatcoat with a choppa and slugga, grinning. A pirate Ork in a stolen naval coat, delighted to see you.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/docks_reaverGunner",
+   "kind": "sprite",
+   "group": "zone:docks",
+   "name": "Reaver Gunner",
+   "subject": "a gaunt void-pirate in patched flak with an autogun and a rebreather. Void-scum with a rifle and nothing left to lose.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/docks_rogueServitor",
+   "kind": "sprite",
+   "group": "zone:docks",
+   "name": "Rogue Servitor",
+   "subject": "a lobotomised cargo-servitor with a hydraulic claw arm and flickering optic. Still following orders from a captain dead three centuries.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/docks_voidPriest",
+   "kind": "sprite",
+   "group": "zone:docks",
+   "name": "Heretek Void-Priest",
+   "subject": "a hooded heretek in black robes with tangled mechadendrites and a sparking staff. He prays to the machine, and the machine prays back wrong.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/docks_scavGang",
+   "kind": "sprite",
+   "group": "zone:docks",
+   "name": "Scavenger Gang",
+   "subject": "a pack of ragged scavengers with knives and stub revolvers, faces wrapped against the cold. Last month they were survivors in the enclave. Now they are hungry.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/docks_kaptinGitsnik",
+   "kind": "sprite",
+   "group": "zone:docks",
+   "name": "Kaptin Gitsnik",
+   "subject": "a massive Ork kaptin with a bicorne hat, a power klaw, gold teef and a pet squig. He found a Fortress. He is keeping it. A towering BOSS, filling the frame.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/docks_reaverLord",
+   "kind": "sprite",
+   "group": "zone:docks",
+   "name": "Vassarine the Undrowned",
+   "subject": "a scarred renegade captain woman in a stolen ornate void-suit with a bolt pistol on a salvage throne. She took the Quays from a dozen crews. She would like your ship next. A towering BOSS, filling the frame.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/docks_hullbreaker",
+   "kind": "sprite",
+   "group": "zone:docks",
+   "name": "The Hullbreaker",
+   "subject": "a colossal spider-legged boarding machine with a drill prow and plasma vents. Built to eat ships. The Fortress fed it. A towering BOSS, filling the frame.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/gardens_sporeThrall",
+   "kind": "sprite",
+   "group": "zone:gardens",
+   "name": "Spore-Thrall",
+   "subject": "a shambling human corpse sprouting glowing fungal growths from eyes and mouth. Explorers who breathed too deep. They grow mushrooms now.",
+   "anchor": true
+  },
+  {
+   "key": "monsters/gardens_krootHunter",
+   "kind": "sprite",
+   "group": "zone:gardens",
+   "name": "Renegade Kroot",
+   "subject": "a lean avian Kroot warrior with quills, a long bladed rifle and feather totems. It has tasted Ork. It wants to know what you taste like.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/gardens_krootHound",
+   "kind": "sprite",
+   "group": "zone:gardens",
+   "name": "Kroot Hound",
+   "subject": "a snarling beaked Kroot hound with quills and a long tail. Fast, beaked, and always in pairs.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/gardens_stranglevine",
+   "kind": "sprite",
+   "group": "zone:gardens",
+   "name": "Stranglevine",
+   "subject": "a writhing mass of thorned carnivorous vines with a gaping flower mouth. The corridor is the predator.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/gardens_venomwing",
+   "kind": "sprite",
+   "group": "zone:gardens",
+   "name": "Venomwing",
+   "subject": "a bat-winged xenos insect with iridescent hypnotic wing patterns, dripping venom. Its wings are patterned to make you look away from your dice.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/gardens_mycelicHerald",
+   "kind": "sprite",
+   "group": "zone:gardens",
+   "name": "Mycelic Herald",
+   "subject": "a tall mushroom-headed humanoid with a cloak of mycelium and a staff of living root. It speaks for the garden. The garden is hungry.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/gardens_bloomQueen",
+   "kind": "sprite",
+   "group": "zone:gardens",
+   "name": "The Bloom Queen",
+   "subject": "a vast carnivorous flower-queen with a humanoid figure grown into its pistil, surrounded by pollen. The garden has a mind, and it has noticed you. A towering BOSS, filling the frame.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/gardens_krootShaper",
+   "kind": "sprite",
+   "group": "zone:gardens",
+   "name": "Shaper Kh'rrak",
+   "subject": "an ancient Kroot shaper with long quills, ritual scars and trophies from many species. He has eaten a Rogue Trader before. He remembers the taste. A towering BOSS, filling the frame.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/gardens_gardener",
+   "kind": "sprite",
+   "group": "zone:gardens",
+   "name": "The Gardener",
+   "subject": "a tall insectile xenos bio-construct of chitin and brass with shear-like arms tending alien plants. A leftover of the Yu'Vath, still tending a garden for masters long gone. A towering BOSS, filling the frame.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/reliquary_rakgolMarauder",
+   "kind": "sprite",
+   "group": "zone:reliquary",
+   "name": "Rak'Gol Marauder",
+   "subject": "a towering reptilian Rak'Gol cyborg with crude bionic cleaver arms and rad-cannon. More machine than meat, and all of it hates you.",
+   "anchor": true
+  },
+  {
+   "key": "monsters/reliquary_rakgolSniper",
+   "kind": "sprite",
+   "group": "zone:reliquary",
+   "name": "Rak'Gol Dead-Eye",
+   "subject": "a lean Rak'Gol with a long crude rail rifle and multiple augmetic lenses. Its eyes were replaced with targeting arrays long ago.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/reliquary_drownedServitor",
+   "kind": "sprite",
+   "group": "zone:reliquary",
+   "name": "Drowned Servitor",
+   "subject": "a waterlogged curator servitor dripping coolant with a piston arm and stasis lamp. It guards the relics. It does not know they are drowned.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/reliquary_coolantEel",
+   "kind": "sprite",
+   "group": "zone:reliquary",
+   "name": "Coolant Eel",
+   "subject": "a pale bioluminescent eel thick as a man, with frost on its fangs. Something evolved in the coolant. It glows.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/reliquary_heretekAdept",
+   "kind": "sprite",
+   "group": "zone:reliquary",
+   "name": "Heretek Adept",
+   "subject": "a renegade tech-adept with red robes stained black, multiple arms and a bundle of stolen relics. He came for the relics and stayed for the voices.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/reliquary_cryoWraith",
+   "kind": "sprite",
+   "group": "zone:reliquary",
+   "name": "Cryo-Wraith",
+   "subject": "a translucent screaming wraith of frost and warp-light rising from black coolant. A ghost of the warp, wearing the frost of the vaults.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/reliquary_rakgolWarlord",
+   "kind": "sprite",
+   "group": "zone:reliquary",
+   "name": "Rak'Gol Warlord",
+   "subject": "a massive Rak'Gol warlord cyborg covered in weapon-limbs and Imperial skulls. It has collected forty Imperial skulls. It needs four more for a set. A towering BOSS, filling the frame.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/reliquary_archiveMind",
+   "kind": "sprite",
+   "group": "zone:reliquary",
+   "name": "The Archive-Mind",
+   "subject": "a vast cathedral of cogitators and data-cables with a single giant optic. The Reliquary's machine-mind. It catalogues everything, including you. A towering BOSS, filling the frame.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/reliquary_drownedConfessor",
+   "kind": "sprite",
+   "group": "zone:reliquary",
+   "name": "The Drowned Confessor",
+   "subject": "a drowned undead preacher in rotted ecclesiarchal robes swinging a black censer, eyes glowing warp-blue. He came to bless the relics. Something in the deep blessed him back. A towering BOSS, filling the frame.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/labyrinth_corsairReaver",
+   "kind": "sprite",
+   "group": "zone:labyrinth",
+   "name": "Eldar Corsair",
+   "subject": "a lithe Eldar corsair in mismatched armour with a power blade and shuriken pistol. Fast as thought, and it thinks you are slow.",
+   "anchor": true
+  },
+  {
+   "key": "monsters/labyrinth_corsairSniper",
+   "kind": "sprite",
+   "group": "zone:labyrinth",
+   "name": "Corsair Void-Sniper",
+   "subject": "an Eldar sniper in a shimmering cloak with a long elegant rifle. You will not see it. You will see the flash.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/labyrinth_shadeDouble",
+   "kind": "sprite",
+   "group": "zone:labyrinth",
+   "name": "Shade-Double",
+   "subject": "a dark featureless reflection of a Rogue Trader stepping out of an obsidian mirror. It is you, from the wrong side of the glass.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/labyrinth_labyrinthWarden",
+   "kind": "sprite",
+   "group": "zone:labyrinth",
+   "name": "Labyrinth Warden",
+   "subject": "a faceless humanoid construct of black obsidian glass with glowing seams. The Fortress grows them like crystals.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/labyrinth_whisperShade",
+   "kind": "sprite",
+   "group": "zone:labyrinth",
+   "name": "Whispering Shade",
+   "subject": "a wispy smoke-figure with too many mouths whispering in the black glass. It whispers what you owe. It is always right.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/labyrinth_corsairWitch",
+   "kind": "sprite",
+   "group": "zone:labyrinth",
+   "name": "Corsair Witch",
+   "subject": "an Eldar witch in a bone-white mask with spinning psychic runes and a singing spear. Her runes spin around her like moons.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/labyrinth_corsairPrince",
+   "kind": "sprite",
+   "group": "zone:labyrinth",
+   "name": "Prince Ilyrath",
+   "subject": "an arrogant Eldar corsair prince in ornate jewelled armour with a star-blade and a cloak of stars. He has raided the Expanse for three centuries and thinks it all rather dull. A towering BOSS, filling the frame.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/labyrinth_theUnmade",
+   "kind": "sprite",
+   "group": "zone:labyrinth",
+   "name": "The Unmade",
+   "subject": "a cracked obsidian reflection of a Rogue Trader captain wearing a ghostly Warrant of Trade. It knows every hand you have played. It knows what you lost. A towering BOSS, filling the frame.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/labyrinth_obsidianSeraph",
+   "kind": "sprite",
+   "group": "zone:labyrinth",
+   "name": "The Obsidian Seraph",
+   "subject": "a six-winged angelic construct of black obsidian glass with a cracked halo of light. A sentinel the Fortress made in the image of something it once saw. A towering BOSS, filling the frame.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/core_blackstoneSentinel",
+   "kind": "sprite",
+   "group": "zone:core",
+   "name": "Blackstone Sentinel",
+   "subject": "a hovering black monolith construct with glowing runes and gravity-warped edges. The Fortress's immune system.",
+   "anchor": true
+  },
+  {
+   "key": "monsters/core_warpSpawn",
+   "kind": "sprite",
+   "group": "zone:core",
+   "name": "Warp-Spawn",
+   "subject": "a twisting mass of warp-flesh with too many eyes and claws. It leaked through a crack in the Gellar of the world.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/core_gravDrone",
+   "kind": "sprite",
+   "group": "zone:core",
+   "name": "Graviton Drone",
+   "subject": "a floating black drone with gravitic emitters bending the light around it. It weighs you, and finds you too light.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/core_warpHound",
+   "kind": "sprite",
+   "group": "zone:core",
+   "name": "Warp-Hound",
+   "subject": "a skinless daemonic hound with a collar of brass and burning eyes. It hunts by the smell of your soul.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/core_chaosCultist",
+   "kind": "sprite",
+   "group": "zone:core",
+   "name": "Chaos Cultist",
+   "subject": "a robed chaos cultist with a ritual knife, autopistol and a mutated hand. They came to worship the Fortress. It did not notice.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/core_renegadePsyker",
+   "kind": "sprite",
+   "group": "zone:core",
+   "name": "Renegade Psyker",
+   "subject": "an emaciated renegade psyker with burning eyes and crackling warp lightning. Unsanctioned and unhinged. The warp sings through him.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/core_gravitarch",
+   "kind": "sprite",
+   "group": "zone:core",
+   "name": "The Gravitarch",
+   "subject": "a giant humanoid construct of black stone with gravity distortion warping the air around it. The Fortress built it to keep the engine turning, and visitors flattened. A towering BOSS, filling the frame.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/core_hollowSaint",
+   "kind": "sprite",
+   "group": "zone:core",
+   "name": "The Hollow Saint",
+   "subject": "a beautiful haloed saint figure with an empty hollow behind its face, warp-light pouring out. It wears the shape of what you pray to. A towering BOSS, filling the frame.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/core_sorcererLord",
+   "kind": "sprite",
+   "group": "zone:core",
+   "name": "Sorcerer-Lord Xaphan",
+   "subject": "a chaos sorcerer in ancient horned power armour wreathed in warp fire. He wants the Fortress for his masters. He has been here a very long time. A towering BOSS, filling the frame.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/core_usurper",
+   "kind": "sprite",
+   "group": "zone:core",
+   "name": "Lord-Captain Rathbone",
+   "subject": "a Rogue Trader usurper in black-and-gold armour fused with blackstone, holding a glowing Warrant of Trade atop a wrecked flagship. He broke your Dynasty, took your Warrant, and came here to make himself a god. A towering BOSS, filling the frame.",
+   "anchor": false
+  },
+  {
+   "key": "monsters/core_warpEcho",
+   "kind": "sprite",
+   "group": "zone:core",
+   "name": "Warp Entity",
+   "subject": "a half-formed daemon pouring out of a crack in reality. Called through by a psyker's mistake.",
+   "anchor": false
+  },
+  {
+   "key": "charms/copperTooth",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Ork Tooth",
+   "subject": "a relic or curio called \"Ork Tooth\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "charms/twinFang",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Twin-Headed Aquila",
+   "subject": "a relic or curio called \"Twin-Headed Aquila\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/tripleCrown",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Trinity Seal",
+   "subject": "a relic or curio called \"Trinity Seal\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/ladderOfBones",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Cogitator Abacus",
+   "subject": "a relic or curio called \"Cogitator Abacus\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/guildmark",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "House Banner",
+   "subject": "a relic or curio called \"House Banner\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/pebblePouch",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Spent Casings",
+   "subject": "a relic or curio called \"Spent Casings\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/oddFellow",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Heretical Coin",
+   "subject": "a relic or curio called \"Heretical Coin\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/evenKeel",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Balanced Gyroscope",
+   "subject": "a relic or curio called \"Balanced Gyroscope\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/snakeEyes",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Purity Seal of Ones",
+   "subject": "a relic or curio called \"Purity Seal of Ones\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/hexSpur",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Decimal Cog",
+   "subject": "a relic or curio called \"Decimal Cog\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/whetstone",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Mono-Edge Hone",
+   "subject": "a relic or curio called \"Mono-Edge Hone\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/gamblersGrin",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Underdeck Dice-Cup",
+   "subject": "a relic or curio called \"Underdeck Dice-Cup\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/lastLaugh",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Last Rites Scroll",
+   "subject": "a relic or curio called \"Last Rites Scroll\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/rustedKey",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Salvage Hook",
+   "subject": "a relic or curio called \"Salvage Hook\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/kinship",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Dynasty Signet",
+   "subject": "a relic or curio called \"Dynasty Signet\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/lanternMoth",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Psy-Focus Crystal",
+   "subject": "a relic or curio called \"Psy-Focus Crystal\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/brawlersKnuckle",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Bayonet Lug",
+   "subject": "a relic or curio called \"Bayonet Lug\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/bloodstone",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Kill-Marked Blade",
+   "subject": "a relic or curio called \"Kill-Marked Blade\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "charms/dragonLedger",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Purser's Ledger",
+   "subject": "a relic or curio called \"Purser's Ledger\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/loadedBone",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Emperor's Tarot Deck",
+   "subject": "a relic or curio called \"Emperor's Tarot Deck\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/deepPockets",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Auspex Array",
+   "subject": "a relic or curio called \"Auspex Array\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/crookedLadder",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Crooked Astrolabe",
+   "subject": "a relic or curio called \"Crooked Astrolabe\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/gapTooth",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Warp-Route Chart",
+   "subject": "a relic or curio called \"Warp-Route Chart\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/weightedFate",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Red-Dot Reticle",
+   "subject": "a relic or curio called \"Red-Dot Reticle\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/hawkMonocle",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Augmetic Eye",
+   "subject": "a relic or curio called \"Augmetic Eye\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/stoicShield",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Refractor Node",
+   "subject": "a relic or curio called \"Refractor Node\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/mendersThread",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Medicae Servo-Skull",
+   "subject": "a relic or curio called \"Medicae Servo-Skull\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/luckySeven",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Septenary Litany",
+   "subject": "a relic or curio called \"Septenary Litany\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/snowball",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Ammunition Belt",
+   "subject": "a relic or curio called \"Ammunition Belt\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/ironPiggy",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Strongbox",
+   "subject": "a relic or curio called \"Strongbox\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/paritySeal",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Binary Seal",
+   "subject": "a relic or curio called \"Binary Seal\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/magpie",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Tithe Collector",
+   "subject": "a relic or curio called \"Tithe Collector\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/echoBell",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Vox Echo",
+   "subject": "a relic or curio called \"Vox Echo\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/sixfoldBell",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Cathedral Bell",
+   "subject": "a relic or curio called \"Cathedral Bell\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/hourglass",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Chronometron",
+   "subject": "a relic or curio called \"Chronometron\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/quarrymark",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Target Designator",
+   "subject": "a relic or curio called \"Target Designator\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/pocketSun",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Ecclesiarch Censer",
+   "subject": "a relic or curio called \"Ecclesiarch Censer\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/nightOwl",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Astropathic Choir-Bead",
+   "subject": "a relic or curio called \"Astropathic Choir-Bead\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/ironRoot",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Mechanicus Cog-Rosary",
+   "subject": "a relic or curio called \"Mechanicus Cog-Rosary\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/boneDust",
+   "kind": "icon",
+   "group": "relic:uncommon",
+   "name": "Hull Plating Scrap",
+   "subject": "a relic or curio called \"Hull Plating Scrap\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/tyrantCrown",
+   "kind": "icon",
+   "group": "relic:rare",
+   "name": "Warlord's Trophy Rack",
+   "subject": "a relic or curio called \"Warlord's Trophy Rack\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "charms/twinSuns",
+   "kind": "icon",
+   "group": "relic:rare",
+   "name": "Binary Star Chart",
+   "subject": "a relic or curio called \"Binary Star Chart\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/glassHeart",
+   "kind": "icon",
+   "group": "relic:rare",
+   "name": "Daemon-Bound Blade",
+   "subject": "a relic or curio called \"Daemon-Bound Blade\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/ouroboros",
+   "kind": "icon",
+   "group": "relic:rare",
+   "name": "Eldar Spirit Stone",
+   "subject": "a relic or curio called \"Eldar Spirit Stone\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/fortuneWheel",
+   "kind": "icon",
+   "group": "relic:rare",
+   "name": "Emperor's Tarot: The Wheel",
+   "subject": "a relic or curio called \"Emperor's Tarot: The Wheel\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/paupersCrown",
+   "kind": "icon",
+   "group": "relic:rare",
+   "name": "Disgraced Warrant",
+   "subject": "a relic or curio called \"Disgraced Warrant\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/monolith",
+   "kind": "icon",
+   "group": "relic:rare",
+   "name": "Blackstone Monolith",
+   "subject": "a relic or curio called \"Blackstone Monolith\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/prismLens",
+   "kind": "icon",
+   "group": "relic:rare",
+   "name": "Xenos Prism",
+   "subject": "a relic or curio called \"Xenos Prism\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/mimicTongue",
+   "kind": "icon",
+   "group": "relic:rare",
+   "name": "Stryxis Mimic-Box",
+   "subject": "a relic or curio called \"Stryxis Mimic-Box\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/avalanche",
+   "kind": "icon",
+   "group": "relic:rare",
+   "name": "Unbroken Banner",
+   "subject": "a relic or curio called \"Unbroken Banner\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/warDrum",
+   "kind": "icon",
+   "group": "relic:rare",
+   "name": "Ork War-Drum",
+   "subject": "a relic or curio called \"Ork War-Drum\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/cartographer",
+   "kind": "icon",
+   "group": "relic:rare",
+   "name": "Rogue Trader's Sash",
+   "subject": "a relic or curio called \"Rogue Trader's Sash\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/dragonHoard",
+   "kind": "icon",
+   "group": "relic:legendary",
+   "name": "Treasure of the Fortress",
+   "subject": "a relic or curio called \"Treasure of the Fortress\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "charms/crownOfAges",
+   "kind": "icon",
+   "group": "relic:legendary",
+   "name": "Crown of the Yu'Vath",
+   "subject": "a relic or curio called \"Crown of the Yu'Vath\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/fifthDoor",
+   "kind": "icon",
+   "group": "relic:legendary",
+   "name": "Lost Warrant Fragment",
+   "subject": "a relic or curio called \"Lost Warrant Fragment\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/starEater",
+   "kind": "icon",
+   "group": "relic:legendary",
+   "name": "Fang of the Rak'Gol",
+   "subject": "a relic or curio called \"Fang of the Rak'Gol\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/idol_aquila",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Gilded Aquila Icon",
+   "subject": "a relic or curio called \"Gilded Aquila Icon\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/idol_adamant",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Regimental Standard",
+   "subject": "a relic or curio called \"Regimental Standard\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/idol_warp",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Soul-Binding Sigil",
+   "subject": "a relic or curio called \"Soul-Binding Sigil\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/idol_cog",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Omnissiah Icon",
+   "subject": "a relic or curio called \"Omnissiah Icon\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/idol_creed",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Saint's Knucklebone",
+   "subject": "a relic or curio called \"Saint's Knucklebone\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/idol_eye",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Third-Eye Talisman",
+   "subject": "a relic or curio called \"Third-Eye Talisman\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/idol_ledger",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Merchant's Seal",
+   "subject": "a relic or curio called \"Merchant's Seal\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "charms/idol_void",
+   "kind": "icon",
+   "group": "relic:common",
+   "name": "Void-Compass",
+   "subject": "a relic or curio called \"Void-Compass\", found in a xenos Blackstone Fortress. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_laspistol",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Laspistol",
+   "subject": "Laspistol, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "items/weapon_lasgun",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Lasgun",
+   "subject": "Lasgun, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_lascarbine",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Lascarbine",
+   "subject": "Lascarbine, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_longLas",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Long-las",
+   "subject": "Long-las, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_hellpistol",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Hellpistol",
+   "subject": "Hellpistol, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_hellgun",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Hellgun",
+   "subject": "Hellgun, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_archeoLaspistol",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Archeotech Laspistol",
+   "subject": "Archeotech Laspistol, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_belasco",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Belasco Duelling Pistol",
+   "subject": "Belasco Duelling Pistol, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_autopistol",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Autopistol",
+   "subject": "Autopistol, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_autogun",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Autogun",
+   "subject": "Autogun, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_stubRevolver",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Stub Revolver",
+   "subject": "Stub Revolver, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_stubAuto",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Stub Automatic",
+   "subject": "Stub Automatic, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_handCannon",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Hand Cannon",
+   "subject": "Hand Cannon, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_navalPistol",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Naval Pistol",
+   "subject": "Naval Pistol, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_shotgun",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Pump-Action Shotgun",
+   "subject": "Pump-Action Shotgun, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_shotcannon",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Naval Shotcannon",
+   "subject": "Naval Shotcannon, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_heavyStubber",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Heavy Stubber",
+   "subject": "Heavy Stubber, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_boltPistol",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Bolt Pistol",
+   "subject": "Bolt Pistol, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_boltgun",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Boltgun",
+   "subject": "Boltgun, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_stormBolter",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Storm Bolter",
+   "subject": "Storm Bolter, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_heavyBolter",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Heavy Bolter",
+   "subject": "Heavy Bolter, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_infernoPistol",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Inferno Pistol",
+   "subject": "Inferno Pistol, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_meltagun",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Meltagun",
+   "subject": "Meltagun, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_multiMelta",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Multi-Melta",
+   "subject": "Multi-Melta, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_plasmaPistol",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Plasma Pistol",
+   "subject": "Plasma Pistol, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_plasmaGun",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Plasma Gun",
+   "subject": "Plasma Gun, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_plasmaCannon",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Plasma Cannon",
+   "subject": "Plasma Cannon, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_handFlamer",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Hand Flamer",
+   "subject": "Hand Flamer, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_flamer",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Flamer",
+   "subject": "Flamer, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_heavyFlamer",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Heavy Flamer",
+   "subject": "Heavy Flamer, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_lascannon",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Man-Portable Lascannon",
+   "subject": "Man-Portable Lascannon, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_crossbow",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Crossbow",
+   "subject": "Crossbow, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_needlePistol",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Needle Pistol",
+   "subject": "Needle Pistol, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_needleRifle",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Needle Rifle",
+   "subject": "Needle Rifle, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_shurikenPistol",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Shuriken Pistol",
+   "subject": "Shuriken Pistol, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_shurikenCatapult",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Shuriken Catapult",
+   "subject": "Shuriken Catapult, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_orkShoota",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Ork Shoota",
+   "subject": "Ork Shoota, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_krootRifle",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Kroot Rifle",
+   "subject": "Kroot Rifle, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_cruxBeam",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Crux Beam Gun",
+   "subject": "Crux Beam Gun, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_digiLaser",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Digi-laser",
+   "subject": "Digi-laser — A jewelled ring that hides a needle-thin las. Counts as a pistol in the off hand., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_knife",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Knife",
+   "subject": "Knife, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_sword",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Sword",
+   "subject": "Sword, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_staff",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Staff",
+   "subject": "Staff, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_warhammer",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Warhammer",
+   "subject": "Warhammer, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_greatWeapon",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Great Weapon",
+   "subject": "Great Weapon, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_shield",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Shield",
+   "subject": "Shield — Off hand: +2 AP to body and arms, and +10 to Parry., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_monoSword",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Mono-Sword",
+   "subject": "Mono-Sword, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_monoKnife",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Mono-Knife",
+   "subject": "Mono-Knife, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_chainsword",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Chainsword",
+   "subject": "Chainsword, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_chainAxe",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Chain Axe",
+   "subject": "Chain Axe, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_cutlass",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Officer's Cutlass",
+   "subject": "Officer's Cutlass, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_shockStaff",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Shock-Staff",
+   "subject": "Shock-Staff, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_powerSword",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Power Sword",
+   "subject": "Power Sword, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_powerAxe",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Power Axe",
+   "subject": "Power Axe, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_powerMaul",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Power Maul",
+   "subject": "Power Maul, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_powerFist",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Power Fist",
+   "subject": "Power Fist, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_omnissianAxe",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Omnissian Axe",
+   "subject": "Omnissian Axe, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_angevinChainsword",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Angevin Era Chainsword",
+   "subject": "Angevin Era Chainsword, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_ghostSword",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Ghost Sword",
+   "subject": "Ghost Sword — Eldar blade: +15 to Parry., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_fractalBlade",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Fractal Blade",
+   "subject": "Fractal Blade, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_orkChoppa",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Ork Choppa",
+   "subject": "Ork Choppa, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/weapon_krakenTooth",
+   "kind": "icon",
+   "group": "item:weapon",
+   "name": "Kraken Tooth Dagger",
+   "subject": "Kraken Tooth Dagger, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/armor_furs",
+   "kind": "icon",
+   "group": "item:armor",
+   "name": "Heavy Leathers",
+   "subject": "Heavy Leathers, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "items/armor_flakCoat",
+   "kind": "icon",
+   "group": "item:armor",
+   "name": "Flak Coat",
+   "subject": "Flak Coat, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/armor_guardFlak",
+   "kind": "icon",
+   "group": "item:armor",
+   "name": "Guard Flak Armour",
+   "subject": "Guard Flak Armour, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/armor_xenoMesh",
+   "kind": "icon",
+   "group": "item:armor",
+   "name": "Xeno Mesh",
+   "subject": "Xeno Mesh, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/armor_meshCloak",
+   "kind": "icon",
+   "group": "item:armor",
+   "name": "Mesh Combat Cloak",
+   "subject": "Mesh Combat Cloak, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/armor_bodyglove",
+   "kind": "icon",
+   "group": "item:armor",
+   "name": "Armoured Bodyglove",
+   "subject": "Armoured Bodyglove, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/armor_feudalPlate",
+   "kind": "icon",
+   "group": "item:armor",
+   "name": "Feudal World Plate",
+   "subject": "Feudal World Plate — Primitive: halved against non-primitive weapons (rounded up)., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/armor_lightCarapace",
+   "kind": "icon",
+   "group": "item:armor",
+   "name": "Enforcer Light Carapace",
+   "subject": "Enforcer Light Carapace, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/armor_carapaceChest",
+   "kind": "icon",
+   "group": "item:armor",
+   "name": "Carapace Chestplate",
+   "subject": "Carapace Chestplate, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/armor_stormCarapace",
+   "kind": "icon",
+   "group": "item:armor",
+   "name": "Storm Trooper Carapace",
+   "subject": "Storm Trooper Carapace, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/armor_saintCarapace",
+   "kind": "icon",
+   "group": "item:armor",
+   "name": "Saint-blessed Carapace",
+   "subject": "Saint-blessed Carapace, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/armor_lightPower",
+   "kind": "icon",
+   "group": "item:armor",
+   "name": "Light Power Armour",
+   "subject": "Light Power Armour, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/armor_powerArmour",
+   "kind": "icon",
+   "group": "item:armor",
+   "name": "Power Armour",
+   "subject": "Power Armour, Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_refractor",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Refractor Field",
+   "subject": "Refractor Field — Force field 30: a d100 roll of 30 or under negates a hit., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "items/gear_conversion",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Conversion Field",
+   "subject": "Conversion Field — Force field 50., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_displacer",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Displacer Field",
+   "subject": "Displacer Field — Force field 55; you may switch ranks freely., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_microBead",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Micro-bead",
+   "subject": "Micro-bead — +1 Initiative; +5 Command., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_auspex",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Auspex",
+   "subject": "Auspex — +10 Awareness and Search., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_combiTool",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Combi-tool",
+   "subject": "Combi-tool — +10 Tech-Use and Security., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_multikey",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Multikey",
+   "subject": "Multikey — +10 Security., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_medikit",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Medikit",
+   "subject": "Medikit — +10 Medicae; rests heal more., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_servoSkull",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Servo-Skull",
+   "subject": "Servo-Skull — A faithful servant's skull, still working: +1 reroll on your turns., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_psyFocus",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Psy-focus",
+   "subject": "Psy-focus — +10 to Focus Power Tests., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_photoVisor",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Photo-visors",
+   "subject": "Photo-visors — +5 Ballistic Skill., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_recoilGloves",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Recoil Gloves",
+   "subject": "Recoil Gloves — +5 BS and WS., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_synskin",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Synskin",
+   "subject": "Synskin — +2 AP everywhere; +10 Silent Move., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_cameleoline",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Cameleoline Cloak",
+   "subject": "Cameleoline Cloak — +10 to Dodge and Silent Move., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_subskin",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Subskin Armour",
+   "subject": "Subskin Armour — Cybernetic: +2 AP everywhere., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_bionicHeart",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Bionic Heart",
+   "subject": "Bionic Heart — Cybernetic: +5 Toughness, +10% Wounds., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_muscleGrafts",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Synthetic Muscle Grafts",
+   "subject": "Synthetic Muscle Grafts — Cybernetic: +10 Strength., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_cortexImplant",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Cortex Implants",
+   "subject": "Cortex Implants — Cybernetic: +5 Intelligence and Willpower., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_augmentedSenses",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Augmented Senses",
+   "subject": "Augmented Senses — Cybernetic: +10 Perception., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_mindImpulse",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Mind Impulse Unit",
+   "subject": "Mind Impulse Unit — Cybernetic: +10 Tech-Use, +1 reroll., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_jumpPack",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Jump Pack",
+   "subject": "Jump Pack — Switch ranks freely; +5 Dodge., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_charm",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Saint's Charm",
+   "subject": "Saint's Charm — A bone, a casing, a saint's fingernail. +1 Fate Point each expedition., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_baton",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Lord-Captain's Baton",
+   "subject": "Lord-Captain's Baton — +5 Fellowship, +10 Command., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_ancestralSeal",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Ancestral Seal",
+   "subject": "Ancestral Seal — Heirloom: +10 Fellowship, +1 Profit Factor., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_reliquary",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Reliquary of Saint Drusus",
+   "subject": "Reliquary of Saint Drusus — Heirloom: +10 Willpower, +1 Fate Point each expedition., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_blackstoneCompass",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Blackstone Compass",
+   "subject": "Blackstone Compass — A shard of the Fortress that points back to itself. +20 Navigation, +10 Awareness., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/gear_yuvathCirclet",
+   "kind": "icon",
+   "group": "item:gear",
+   "name": "Yu'Vath Circlet",
+   "subject": "Yu'Vath Circlet — Xenos psy-circlet. +15 Focus Power, +5 Willpower. Unclean., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/consumable_fieldDressing",
+   "kind": "icon",
+   "group": "item:consumable",
+   "name": "Field Dressing",
+   "subject": "Field Dressing — Stop the bleeding, bind the wound., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "items/consumable_medkitCharge",
+   "kind": "icon",
+   "group": "item:consumable",
+   "name": "Medicae Injector",
+   "subject": "Medicae Injector — Counterseptic, plasma, a prayer., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/consumable_advMedikit",
+   "kind": "icon",
+   "group": "item:consumable",
+   "name": "Advanced Medikit",
+   "subject": "Advanced Medikit — Clotting foam and nerve-binders., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/consumable_stimm",
+   "kind": "icon",
+   "group": "item:consumable",
+   "name": "Stimm",
+   "subject": "Stimm — +10 Toughness and temporary Wounds for the fight., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/consumable_frenzon",
+   "kind": "icon",
+   "group": "item:consumable",
+   "name": "Frenzon",
+   "subject": "Frenzon — Near-suicidal aggression: Frenzy for the fight., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/consumable_detox",
+   "kind": "icon",
+   "group": "item:consumable",
+   "name": "De-tox",
+   "subject": "De-tox — Purges toxins and fire, violently., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/consumable_fragGrenade",
+   "kind": "icon",
+   "group": "item:consumable",
+   "name": "Frag Grenade",
+   "subject": "Frag Grenade — Blast (4): hits a whole rank., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/consumable_krakGrenade",
+   "kind": "icon",
+   "group": "item:consumable",
+   "name": "Krak Grenade",
+   "subject": "Krak Grenade — Shaped charge: Pen 6 against one foe., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/consumable_plasmaGrenade",
+   "kind": "icon",
+   "group": "item:consumable",
+   "name": "Plasma Grenade",
+   "subject": "Plasma Grenade — A small sun, briefly., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/consumable_photonFlash",
+   "kind": "icon",
+   "group": "item:consumable",
+   "name": "Photon Flash Grenade",
+   "subject": "Photon Flash Grenade — Blinds every foe that fails an Agility Test., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/consumable_smokeGrenade",
+   "kind": "icon",
+   "group": "item:consumable",
+   "name": "Smoke Grenade",
+   "subject": "Smoke Grenade — Break contact and fall back one room (not against a boss)., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/consumable_rations",
+   "kind": "icon",
+   "group": "item:consumable",
+   "name": "Ration Packs",
+   "subject": "Ration Packs — Lets the party take a short rest anywhere., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/consumable_unguents",
+   "kind": "icon",
+   "group": "item:consumable",
+   "name": "Sacred Unguents",
+   "subject": "Sacred Unguents — Propitiate the machine spirit: clear jams and gain a Fortune token., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/consumable_stasisPod",
+   "kind": "icon",
+   "group": "item:consumable",
+   "name": "Chirurgeon's Stasis Pod",
+   "subject": "Chirurgeon's Stasis Pod — At a camp: a fallen explorer is pulled back from the brink., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/valuable_orkTeef",
+   "kind": "icon",
+   "group": "item:valuable",
+   "name": "Sack of Ork Teef",
+   "subject": "Sack of Ork Teef — Ork currency. The enclave's Kroot guide takes them at a fair rate., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "items/valuable_promethium",
+   "kind": "icon",
+   "group": "item:valuable",
+   "name": "Promethium Cache",
+   "subject": "Promethium Cache — Sealed drums of refined fuel., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/valuable_dataCrystal",
+   "kind": "icon",
+   "group": "item:valuable",
+   "name": "Star-Chart Data-Crystal",
+   "subject": "Star-Chart Data-Crystal — Warp routes no living Navigator has flown., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/valuable_saintsBone",
+   "kind": "icon",
+   "group": "item:valuable",
+   "name": "Saint's Finger-Bone",
+   "subject": "Saint's Finger-Bone — Attested, they say. The Missionaries pay well., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/valuable_xenosIdol",
+   "kind": "icon",
+   "group": "item:valuable",
+   "name": "Xenos Idol",
+   "subject": "Xenos Idol — Carved from no stone the Imperium knows., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/valuable_blackstoneShard",
+   "kind": "icon",
+   "group": "item:valuable",
+   "name": "Blackstone Shard",
+   "subject": "Blackstone Shard — A splinter of the Fortress itself. It hums when held., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/valuable_archeoFragment",
+   "kind": "icon",
+   "group": "item:valuable",
+   "name": "Archeotech Fragment",
+   "subject": "Archeotech Fragment — A circuit from the Dark Age of Technology. The Mechanicus covets it., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/valuable_rakgolCore",
+   "kind": "icon",
+   "group": "item:valuable",
+   "name": "Rak'Gol Power Core",
+   "subject": "Rak'Gol Power Core — Still warm. Still dangerous., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/valuable_spiritStone",
+   "kind": "icon",
+   "group": "item:valuable",
+   "name": "Cracked Spirit Stone",
+   "subject": "Cracked Spirit Stone — An Eldar soul-gem. Something moves inside., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/valuable_navigatorJewel",
+   "kind": "icon",
+   "group": "item:valuable",
+   "name": "Navigator's Jewel",
+   "subject": "Navigator's Jewel — A house sigil-gem, lost with its ship., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/valuable_cogitatorCore",
+   "kind": "icon",
+   "group": "item:valuable",
+   "name": "Pre-Imperial Cogitator Core",
+   "subject": "Pre-Imperial Cogitator Core — It still thinks. It should not., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/valuable_stasisRelic",
+   "kind": "icon",
+   "group": "item:valuable",
+   "name": "Stasis-locked Artefact",
+   "subject": "Stasis-locked Artefact — Sealed in a field no augur can read., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "items/valuable_yuvathRelic",
+   "kind": "icon",
+   "group": "item:valuable",
+   "name": "Yu'Vath Relic",
+   "subject": "Yu'Vath Relic — An abomination of the vanished warp-cult empire. Worth a fortune to the wrong buyer., Rogue Trader era Imperial equipment. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "scenes/docks_corridor",
+   "kind": "scene",
+   "group": "scene:docks",
+   "name": "The Shattered Quays — corridor",
+   "subject": "a frost-rimed docking spine inside a black-stone xenos fortress, wrecked ships moored to it. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "scenes/docks_hold",
+   "kind": "scene",
+   "group": "scene:docks",
+   "name": "The Shattered Quays — hold",
+   "subject": "a breached cargo hold venting to the void, crates and corpses drifting. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "scenes/docks_vault",
+   "kind": "scene",
+   "group": "scene:docks",
+   "name": "The Shattered Quays — vault",
+   "subject": "a purser's strongroom on a wrecked ship, gilded chests. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "scenes/docks_boss",
+   "kind": "scene",
+   "group": "scene:docks",
+   "name": "The Shattered Quays — boss",
+   "subject": "a throne of salvage built from a hundred wrecked ships. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "scenes/gardens_corridor",
+   "kind": "scene",
+   "group": "scene:gardens",
+   "name": "The Xenos Arboretum — corridor",
+   "subject": "an alien jungle grown through black-stone corridors, glowing pods. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "scenes/gardens_grove",
+   "kind": "scene",
+   "group": "scene:gardens",
+   "name": "The Xenos Arboretum — grove",
+   "subject": "a carnivorous flower grove with Kroot totems. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "scenes/gardens_cache",
+   "kind": "scene",
+   "group": "scene:gardens",
+   "name": "The Xenos Arboretum — cache",
+   "subject": "an overgrown reliquary of explorer packs. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "scenes/gardens_boss",
+   "kind": "scene",
+   "group": "scene:gardens",
+   "name": "The Xenos Arboretum — boss",
+   "subject": "a cathedral-sized carnivorous flower heart breathing spores. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "scenes/reliquary_corridor",
+   "kind": "scene",
+   "group": "scene:reliquary",
+   "name": "The Drowned Reliquary — corridor",
+   "subject": "flooded relic stacks, black coolant, stasis fields holding artefacts. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "scenes/reliquary_vault",
+   "kind": "scene",
+   "group": "scene:reliquary",
+   "name": "The Drowned Reliquary — vault",
+   "subject": "a drowned vault of stasis coffins. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "scenes/reliquary_pumps",
+   "kind": "scene",
+   "group": "scene:reliquary",
+   "name": "The Drowned Reliquary — pumps",
+   "subject": "a brass pump station over black coolant. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "scenes/reliquary_boss",
+   "kind": "scene",
+   "group": "scene:reliquary",
+   "name": "The Drowned Reliquary — boss",
+   "subject": "a cathedral of cogitators half-submerged in coolant. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "scenes/labyrinth_corridor",
+   "kind": "scene",
+   "group": "scene:labyrinth",
+   "name": "The Obsidian Labyrinth — corridor",
+   "subject": "an obsidian glass corridor reflecting impossible rooms. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "scenes/labyrinth_chapel",
+   "kind": "scene",
+   "group": "scene:labyrinth",
+   "name": "The Obsidian Labyrinth — chapel",
+   "subject": "a chamber of floating black glass shards and prismatic light. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "scenes/labyrinth_lenses",
+   "kind": "scene",
+   "group": "scene:labyrinth",
+   "name": "The Obsidian Labyrinth — lenses",
+   "subject": "a vault of giant obsidian lenses. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "scenes/labyrinth_boss",
+   "kind": "scene",
+   "group": "scene:labyrinth",
+   "name": "The Obsidian Labyrinth — boss",
+   "subject": "a vast black-glass nave with a cracked colossal mirror. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "scenes/core_corridor",
+   "kind": "scene",
+   "group": "scene:core",
+   "name": "The Gravitic Heart — corridor",
+   "subject": "a floating causeway between engines larger than cathedrals. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "scenes/core_engine",
+   "kind": "scene",
+   "group": "scene:core",
+   "name": "The Gravitic Heart — engine",
+   "subject": "a gravitic engine hall with debris orbiting slowly. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "scenes/core_vault",
+   "kind": "scene",
+   "group": "scene:core",
+   "name": "The Gravitic Heart — vault",
+   "subject": "a warp-sealed reliquary. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "scenes/core_boss",
+   "kind": "scene",
+   "group": "scene:core",
+   "name": "The Gravitic Heart — boss",
+   "subject": "the Engine of Ages: a colossal black-stone engine leaking warp-light. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "town/fortress",
+   "kind": "scene",
+   "group": "scene:town",
+   "name": "fortress",
+   "subject": "a vast black Blackstone Fortress drifting in the void, a tiny derelict trader beside it, the enclave's lights at its mouth. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": true
+  },
+  {
+   "key": "town/guild",
+   "kind": "scene",
+   "group": "scene:town",
+   "name": "guild",
+   "subject": "a muster hall in a survivor enclave of salvaged bulkheads and hanging lumens. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "town/chronicle",
+   "kind": "scene",
+   "group": "scene:town",
+   "name": "chronicle",
+   "subject": "a Rogue Trader's ledger and a broken Warrant of Trade seal by candlelight. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "town/market",
+   "kind": "scene",
+   "group": "scene:town",
+   "name": "market",
+   "subject": "a crowded void-port market of stalls selling guns, armour and chems. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "town/exchange",
+   "kind": "scene",
+   "group": "scene:town",
+   "name": "exchange",
+   "subject": "a trader's counter weighing xenos relics against Thrones. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "town/shrine",
+   "kind": "scene",
+   "group": "scene:town",
+   "name": "shrine",
+   "subject": "a Mechanicus tech-shrine with an anvil, cogs and incense. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "town/drill",
+   "kind": "scene",
+   "group": "scene:town",
+   "name": "drill",
+   "subject": "an armsmen drill deck with targets and sparring rings. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "town/hold",
+   "kind": "scene",
+   "group": "scene:town",
+   "name": "hold",
+   "subject": "the cargo hold of a derelict trader, sparse and patched. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  },
+  {
+   "key": "town/codex",
+   "kind": "scene",
+   "group": "scene:town",
+   "name": "codex",
+   "subject": "a cogitator archive of records and bestiary data-slates. grimdark gothic far-future, brass and void-black, candlelit, painterly.",
+   "anchor": false
+  }
+ ]
+}
